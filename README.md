@@ -335,7 +335,7 @@ http://127.0.0.1:8299/api/file/mihomo
 > **访问说明：**
 > 当你打开 `http://127.0.0.1:8299`，你发现跳转到了 `https://sub-store.vercel.app/subs`，看 [**这里**](./doc/sub-store.md)
 
-**直接裸核运行 tun 模式（可选）**
+直接裸核运行 tun 模式（可选）
 
 原作者写的Windows下的裸核运行应用 [minihomo](https://github.com/bestruirui/minihomo)
 
