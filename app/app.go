@@ -184,8 +184,6 @@ func (app *App) checkProxies() error {
 
 	slog.Info("检测完成")
 	save.SaveConfig(results)
-	utils.SendNotify(len(results))
-	utils.UpdateSubs()
 
 	// 执行回调脚本
 	utils.ExecuteCallback(len(results))
