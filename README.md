@@ -3,7 +3,7 @@
 基于[原项目](https://github.com/beck-8/subs-check/commit/a7439254daed532bb1b1baa95e3cca470881c6f6)做出的独立项目，只保留核心的订阅节点检测，输出有效的节点
 <!--基于-->
 
-> **注意：** 功能添加频繁，请看最新[配置文件](https://github.com/beck-8/subs-check/blob/master/config/config.example.yaml)跟进功能
+> **注意：** 功能添加频繁，请看最新[配置文件](https://github.com/bruceblink/subs-checker/blob/master/config/config.example.yaml)跟进功能
 
 ## 预览
 
@@ -25,7 +25,7 @@
   - gemini
   - IP欺诈分数
 - 合并多个订阅
-- 将订阅转换为clash/clash.meta/base64/QX等等[任意格式的订阅](https://github.com/beck-8/subs-check?tab=readme-ov-file#%E8%AE%A2%E9%98%85%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
+- 将订阅转换为clash/clash.meta/base64/QX等等[任意格式的订阅](https://github.com/bruceblink/subs-checker?tab=readme-ov-file#%E8%AE%A2%E9%98%85%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
 - 节点去重
 - 节点重命名
 - 节点测速（单线程）
@@ -195,7 +195,7 @@ go run main.go -f /path/to/config.yaml
 
 ### 二进制文件运行
 
-下载 [releases](https://github.com/beck-8/subs-check/releases) 当中的适合自己的版本解压直接运行即可,会在当前目录生成配置文件
+下载 [releases](https://github.com/bruceblink/subs-checker/releases) 当中的适合自己的版本解压直接运行即可,会在当前目录生成配置文件
 
 ## 通知渠道配置方法（可选）
 
