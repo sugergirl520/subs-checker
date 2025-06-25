@@ -11,12 +11,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/beck-8/subs-check/app/monitor"
-	"github.com/beck-8/subs-check/assets"
-	"github.com/beck-8/subs-check/check"
-	"github.com/beck-8/subs-check/config"
-	"github.com/beck-8/subs-check/save"
-	"github.com/beck-8/subs-check/utils"
+	"github.com/bruceblink/subs-checker/app/monitor"
+	"github.com/bruceblink/subs-checker/assets"
+	"github.com/bruceblink/subs-checker/check"
+	"github.com/bruceblink/subs-checker/config"
+	"github.com/bruceblink/subs-checker/save"
+	"github.com/bruceblink/subs-checker/utils"
 	"github.com/fsnotify/fsnotify"
 	"github.com/robfig/cron/v3"
 )

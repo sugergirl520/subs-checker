@@ -11,11 +11,11 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/beck-8/subs-check/check"
-	"github.com/beck-8/subs-check/config"
-	"github.com/beck-8/subs-check/proxy/parser"
-	"github.com/beck-8/subs-check/save/method"
-	"github.com/beck-8/subs-check/utils"
+	"github.com/bruceblink/subs-checker/check"
+	"github.com/bruceblink/subs-checker/config"
+	"github.com/bruceblink/subs-checker/proxy/parser"
+	"github.com/bruceblink/subs-checker/save/method"
+	"github.com/bruceblink/subs-checker/utils"
 	"github.com/buger/jsonparser"
 	"gopkg.in/yaml.v3"
 )

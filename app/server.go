@@ -10,9 +10,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/beck-8/subs-check/check"
-	"github.com/beck-8/subs-check/config"
-	"github.com/beck-8/subs-check/save/method"
+	"github.com/bruceblink/subs-checker/check"
+	"github.com/bruceblink/subs-checker/config"
+	"github.com/bruceblink/subs-checker/save/method"
 	"github.com/gin-gonic/gin"
 	"gopkg.in/yaml.v3"
 )

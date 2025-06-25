@@ -9,8 +9,8 @@ import (
 
 	"log/slog"
 
-	"github.com/beck-8/subs-check/config"
-	"github.com/beck-8/subs-check/utils"
+	"github.com/bruceblink/subs-checker/config"
+	"github.com/bruceblink/subs-checker/utils"
 	"github.com/metacubex/mihomo/common/convert"
 	"gopkg.in/yaml.v3"
 )

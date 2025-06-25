@@ -16,9 +16,9 @@ import (
 
 	"log/slog"
 
-	"github.com/beck-8/subs-check/check/platform"
-	"github.com/beck-8/subs-check/config"
-	proxyutils "github.com/beck-8/subs-check/proxy"
+	"github.com/bruceblink/subs-checker/check/platform"
+	"github.com/bruceblink/subs-checker/config"
+	proxyutils "github.com/bruceblink/subs-checker/proxy"
 	"github.com/juju/ratelimit"
 	"github.com/metacubex/mihomo/adapter"
 	"github.com/metacubex/mihomo/constant"
