@@ -162,20 +162,6 @@ func (app *App) triggerCheck() {
 		os.Exit(1)
 	}
 
-	// 检测完成后显示下次检查时间
-	if app.ticker != nil {
-		// 使用间隔时间模式
-		app.ticker.Reset(time.Duration(app.interval) * time.Minute)
-		nextCheck := time.Now().Add(time.Duration(app.interval) * time.Minute)
-		slog.Info(fmt.Sprintf("下次检查时间: %s", nextCheck.Format("2006-01-02 15:04:05")))
-	} else if app.cron != nil {
-		// 使用cron模式
-		entries := app.cron.Entries()
-		if len(entries) > 0 {
-			nextTime := entries[0].Next
-			slog.Info(fmt.Sprintf("下次检查时间: %s", nextTime.Format("2006-01-02 15:04:05")))
-		}
-	}
 	debug.FreeOSMemory()
 }
 
@@ -208,5 +194,5 @@ func (app *App) checkProxies() error {
 }
 
 func TempLog() string {
-	return filepath.Join(os.TempDir(), "subs-check.log")
+	return filepath.Join(os.TempDir(), "subs-checker.log")
 }

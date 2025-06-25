@@ -93,6 +93,7 @@ func Check() ([]Result, error) {
 		slog.Info(fmt.Sprintf("添加之前测试成功的节点，数量: %d", len(config.GlobalProxies)))
 		proxies = append(proxies, config.GlobalProxies...)
 	}
+	// 获取代理节点
 	tmp, err := proxyutils.GetProxies()
 	if err != nil {
 		return nil, fmt.Errorf("获取节点失败: %w", err)
@@ -102,11 +103,12 @@ func Check() ([]Result, error) {
 
 	// 重置全局节点
 	config.GlobalProxies = make([]map[string]any, 0)
-
+	// 节点去重
 	proxies = proxyutils.DeduplicateProxies(proxies)
 	slog.Info(fmt.Sprintf("去重后节点数量: %d", len(proxies)))
-
+    // 创建节点检测器
 	checker := NewProxyChecker(len(proxies))
+	// 执行节点检测逻辑
 	return checker.run(proxies)
 }
 
