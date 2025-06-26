@@ -158,7 +158,7 @@ func (app *App) triggerCheck() {
 
 // checkProxies 执行代理检测
 func (app *App) checkProxies() error {
-	slog.Info("开始检测代理")
+	slog.Info("开始检测代理节点")
 
 	results, err := check.Check()
 	if err != nil {
