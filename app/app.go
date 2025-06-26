@@ -67,15 +67,6 @@ func (app *App) Initialize() error {
 
 // Run 运行应用程序主循环
 func (app *App) Run() {
-	defer func() {
-		app.watcher.Close()
-		if app.ticker != nil {
-			app.ticker.Stop()
-		}
-		if app.cron != nil {
-			app.cron.Stop()
-		}
-	}()
 
 	slog.Info(fmt.Sprintf("进度展示: %v", config.GlobalConfig.PrintProgress))
 	// 启动节点检测
