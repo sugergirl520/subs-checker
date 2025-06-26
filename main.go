@@ -8,6 +8,11 @@ import (
 	"github.com/bruceblink/subs-checker/app"
 )
 
+var (
+    Version       = "unknown"
+    CurrentCommit = "unknown"
+)
+
 func main() {
 	application := app.New(fmt.Sprintf("%s-%s", Version, CurrentCommit))
 	slog.Info(fmt.Sprintf("当前版本: %s-%s", Version, CurrentCommit))
