@@ -1,0 +1,75 @@
+name: Watch-Daily-Update
+
+on:
+  schedule:
+    - cron: '0 0-15 * * *'  # UTC 时间的 00:00 ~ 15:00，每小时一次 = 北京时间 08:00 ~ 23:00每小时一次
+  workflow_dispatch:
+  push:
+    branches:
+      - main          # 只在分支推送时触发
+    tags-ignore:
+      - '*'            # 忽略所有 tag 推送
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+      - '.gitignore'
+      - '.gitattributes'
+      - 'picture'
+
+jobs:
+  update-nodes:
+    name: Update Proxies
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+      actions: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Go environment
+        uses: actions/setup-go@v4
+        with:
+          go-version: stable
+          cache: 'true'
+
+      - name: Run proxies check
+        run: go run main.go -f ./config/config.yaml
+        timeout-minutes: 150
+        env:
+          MAX_CONCURRENT_TESTS: 50  # 自定义并发数
+
+      - name: Commit changes
+        if: success()
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 生成智能提交信息
+          timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          commit_hash=$(git rev-parse --short HEAD)
+          commit_msg="🌐 Update proxies info - ${timestamp} (${commit_hash})"
+          
+          git add -A  # 添加所有变更文件
+          
+          if ! git diff-index --cached --quiet HEAD; then
+            git commit -m "$commit_msg"
+            git pull --rebase  # 防止冲突
+            branch_name=${GITHUB_REF#refs/heads/}
+            git push origin HEAD:$branch_name
+            echo "::notice::Changes pushed successfully"
+          else
+            echo "::notice::No changes to commit"
+          fi
+
+      - name: Cleanup workspace
+        if: always()
+        run: |
+          # 清理临时文件
+          find . -type f -name '*.tmp' -delete
+          rm -rf ./temp
