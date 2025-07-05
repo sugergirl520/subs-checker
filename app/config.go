@@ -32,6 +32,7 @@ func (app *App) initConfigPath() error {
 func (app *App) loadConfig() error {
 	yamlFile, err := os.ReadFile(app.configPath)
 	if err != nil {
+		slog.Info(fmt.Sprintf("读取配置文件%s失败%s", app.configPath, err))
 		if os.IsNotExist(err) {
 			return app.createDefaultConfig()
 		}
