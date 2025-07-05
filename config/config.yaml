@@ -1,0 +1,189 @@
+# 是否显示进度
+print-progress: true
+
+# 并发线程数
+concurrent: 20
+# 检查间隔(分钟)
+check-interval: 30
+# cron表达式，如果配置了此项，将忽略check-interval
+# 支持标准cron表达式，如：
+# "0 */2 * * *" 表示每2小时的整点执行
+# "0 0 */2 * *" 表示每2天的0点执行
+# "0 0 1 * *" 表示每月1日0点执行
+# "*/30 * * * *" 表示每30分钟执行一次
+# cron-expression: "*/30 * * * *"
+
+# 超时时间(毫秒)(节点的最大延迟)
+timeout: 5000
+# 测速地址(注意 并发数*节点速度<最大网速 否则测速结果不准确)
+# 尽量不要使用Speedtest，Cloudflare提供的下载链接，因为很多节点屏蔽测速网站
+# 如果找不到稳定的测速地址，可以自建测速地址
+speed-test-url: https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v2.21.12/Waifu2x-Extension-GUI-v2.21.12-Portable.7z
+# 最低测速结果舍弃(KB/s)
+min-speed: 1024
+# 下载测试时间(s)(与下载链接大小相关，默认最大测试10s)
+download-timeout: 10
+# 单节点测速下载数据大小(MB)限制，0为不限
+download-mb: 20
+# 总下载速度速度限制(MB/s)，0为不限
+# 限制与实际情况可能会有一定误差
+total-speed-limit: 0
+
+# 监听端口，用于直接返回节点信息，方便订阅转换
+# http://127.0.0.1:8199/all.yaml
+# 注意：为方便小白默认监听0.0.0.0:8199，请自行修改
+# 更新需重启程序
+listen-port: ":8199"
+
+# 以节点IP查询位置重命名节点
+# 质量差的节点可能造成IP查询失败，造成整体检查速度稍微变慢，默认true
+rename-node: true
+# 节点前缀，依赖rename-node为true才生效
+node-prefix: ""
+
+# 是否开启流媒体检测，其中IP欺诈依赖重命名
+media-check: false
+platforms:
+  - openai
+  - youtube
+  - netflix
+  - disney
+  - gemini
+  - iprisk
+
+# 保留之前测试成功的节点
+# 如果为true，则保留之前测试成功的节点，这样就不会因为上游链接更新，导致可用的节点被清除掉
+keep-success-proxies: false
+# 保存几个成功的节点，为0代表不限制 
+# 如果你的并发数量超过这个参数，那么成功的结果可能会大于这个数值
+# success-limit <= success <= success-limit+concurrent
+success-limit: 0
+
+# 输出目录
+# 如果为空，则为程序所在目录的config目录
+output-dir: "./output"
+
+# 是否启用Web控制面板
+# 如果为false，则不启动Web控制界面，仅启动订阅服务相关接口
+# 访问地址：http://127.0.0.1:8199/admin
+enable-web-ui: true
+# 填写Web控制面板的api-key，如果为空，则自动生成
+# 配置文件为空时，支持使用环境变量设置 API_KEY
+api-key: ""
+
+# 检测完成后执行的回调脚本路径
+# 脚本将在检测完成后执行，可用于自定义通知或其他操作
+# 例如: "/path/to/your/script.sh" 或 'C:\path\to\your\script.bat'
+# Linux请在脚本开头添加对应的：#!/bin/bash、#!/bin/sh、#!/usr/bin/env bash 等，编写标准的脚本
+# 注意如果使用docker，目前docker使用的alpine，只有sh，不支持bash
+callback-script: ""
+
+# 填写搭建的apprise API server 地址
+# https://notify.xxxx.us.kg/notify
+apprise-api-server: ""
+# 填写通知目标
+# 支持100+ 个通知渠道，详细格式请参照 https://github.com/caronc/apprise
+recipient-url: 
+  # telegram格式：tgram://<bot_token>/<chat_id>
+  # - tgram://xxxxxx/-1002149239223
+  # 钉钉格式：dingtalk://<secret>@<dd_token>/<chat_id>
+  # - dingtalk://xxxxxx@xxxxxxx/123123
+# 自定义通知标题
+notify-title: "🔔 节点状态更新"
+
+# sub-store的启动端口，为空则不启动sub-store
+# 更新需重启程序，不可监听局域网IP，只有三种写法 :8299, 127.0.0.1:8299, 0.0.0.0:8299
+# sub-store-port: ":8299"
+sub-store-port: ":8299"
+# sub-store自定义访问路径，必须以/开头，后续访问订阅也要带上此路径
+# 设置path之后，还可以开启订阅分享功能，无需暴露真实的path
+# sub-store-path: "/path"
+sub-store-path: ""
+# 覆写订阅的url，这个的作用是生成带指定规则的mihomo/clash.meta订阅链接
+# 防止网络不好，所以现在内置，依赖:8199端口
+# 如果你想替换其他的自定义覆写文件，自己命名后放在output目录，然后更改此URL后缀即可
+mihomo-overwrite-url: "http://127.0.0.1:8199/sub/ACL4SSR_Online_Full.yaml"
+
+# mihomo api url(测试完成后自动更新mihomo订阅，使用场景有限不要使用)
+mihomo-api-url: ""
+# mihomo api secret
+mihomo-api-secret: ""
+
+# 保存方法
+# 目前支持的保存方法: r2, local, gist, webdav, s3
+save-method: local
+
+# webdav
+webdav-url: "https://example.com/dav/"
+webdav-username: "admin"
+webdav-password: "admin"
+
+# gist id
+github-gist-id: ""
+# github token
+github-token: ""
+# github api mirror
+github-api-mirror: ""
+
+# 将测速结果推送到Worker的地址
+worker-url: https://example.worker.dev
+# Worker令牌
+worker-token: 1234567890
+
+# 将测速结果推送到S3/Minio的地址
+s3-endpoint: "127.0.0.1:9000"
+# S3的访问凭证
+s3-access-id: "ak"
+s3-secret-key: "sk"
+# S3的Bucket名称
+s3-bucket: "public"
+# 是否使用SSL
+s3-use-ssl: false
+# 默认自动判断dns还是path，但一些云厂商不遵循规范，所以有时需要手动设置
+# 可选值：auto, path, dns
+s3-bucket-lookup: "auto"
+
+# 重试次数(获取订阅失败后重试次数)
+sub-urls-retry: 3
+# Github Proxy，获取订阅使用，结尾要带的 /
+# github-proxy: "https://ghfast.top/"
+github-proxy: ""
+# 符合条件节点数量的占比，低于此值会将订阅链接打印出来，用于排查质量差的订阅
+success-rate: 0.1
+# 订阅地址 支持 clash/mihomo/v2ray/base64 格式的订阅链接
+# 如果用户想使用clash类型，那可以在支持的订阅链接结尾加上 &flag=clash.meta
+# github 链接可自己添加ghproxy使用；订阅链接支持 HTTP_PROXY HTTPS_PROXY 环境变量加速拉取
+sub-urls:
+  # - https://example.com/sub.txt
+  # - https://example.com/sub2.txt
+  # - https://example.com/sub?token=43fa8f0dc9bb00dcfec2afb21b14378a
+  # - https://example.com/sub?token=43fa8f0dc9bb00dcfec2afb21b14378a?flag=clash.meta
+  # - https://raw.githubusercontent.com/example/repo/main/config/{Ymd}.yaml
+  # - https://raw.githubusercontent.com/example/repo/main/daily/daily-{Y}-{m}-{d}.yaml
+  - "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml"
+  - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml"
+  - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc1.yaml"
+  - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc2.yaml"
+  - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc3.yaml"
+  - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc4.yaml"
+  - "https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/clash/naidounode.txt"
+  - "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml"
+  - "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml"
+  - "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml"
+  - "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml"
+  - "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
+  - "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
+  - "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
+  - "https://raw.githubusercontent.com/mgit0001/test_clash/refs/heads/main/heima.txt"
+  - "https://raw.githubusercontent.com/aiboboxx/v2rayfree/refs/heads/main/README.md"
+  - "https://raw.githubusercontent.com/shahidbhutta/Clash/refs/heads/main/Router"
+  - "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
+  - "https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml"
+  - "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml"
+  - "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml"
+  - "https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml"
+  - "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml"
+  - "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt"
+  - "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+  - "https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml"
+  - "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml"
