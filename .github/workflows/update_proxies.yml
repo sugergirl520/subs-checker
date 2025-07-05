@@ -2,7 +2,7 @@ name: Proxies-Daily-Update
 
 on:
   schedule:
-    - cron: '0 0-15 * * *'  # UTC 时间的 00:00 ~ 15:00，每小时一次 = 北京时间 08:00 ~ 23:00每小时一次
+    - cron: '0 0,3,6,9,12,15 * * *'  # UTC 时间每3小时一次，即北京时间 08:00 ~ 23:00 每3小时执行一次
   workflow_dispatch:
   push:
     branches:
