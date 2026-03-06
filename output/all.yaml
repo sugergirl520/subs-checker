@@ -1,7 +1,7 @@
 proxies:
     - client-fingerprint: random
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 3.5MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 6.0MB/s"
       port: 443
       reality-opts:
         public-key: BxD77zyPkOaShiNfOkRbbJvpmSzFHIKx4xhhLR4PSQU
@@ -29,12 +29,12 @@ proxies:
       uuid: f6c7016b-6f94-4a32-975c-013f2494d312
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 6.6MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 5.8MB/s"
       port: 443
       reality-opts:
-        public-key: AFQAIB5u9Uu6nf9fkP1BdcSHivSuUv97l4FH-LoFYgw
-        short-id: 92dca6
-      server: nl1.miyazono-kaori.com
+        public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
+        short-id: 69cc4c0d5e
+      server: nl2.miyazono-kaori.com
       servername: www.philips.com
       skip-cert-verify: false
       tls: true
@@ -43,7 +43,7 @@ proxies:
       uuid: f6c7016b-6f94-4a32-975c-013f2494d312
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 38.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 41.1MB/s"
       port: 443
       reality-opts:
         public-key: MrVc8uqpwhoXwJXD-2rOkZp-gXyIH15mYx0noP7joxM
@@ -57,7 +57,29 @@ proxies:
       uuid: f6c7016b-6f94-4a32-975c-013f2494d312
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 37.7MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 4.8MB/s"
+      port: 443
+      reality-opts:
+        public-key: AFQAIB5u9Uu6nf9fkP1BdcSHivSuUv97l4FH-LoFYgw
+        short-id: 92dca6
+      server: nl1.miyazono-kaori.com
+      servername: www.philips.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: f6c7016b-6f94-4a32-975c-013f2494d312
+    - cipher: aes-256-cfb
+      delay: 2401
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.68
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 14.0MB/s"
       port: 443
       reality-opts:
         public-key: OIVDQIpAT0W0VQ5E8qHlBZjXtcPOxrbWpx3CxN5L-iQ
@@ -71,7 +93,7 @@ proxies:
       uuid: f6c7016b-6f94-4a32-975c-013f2494d312
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 27.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 12.4MB/s"
       port: 443
       reality-opts:
         public-key: YphMgjDVmVZ61e0Mk-zN-U6g7J8GYJ54Fu-6jWspLCM
@@ -85,36 +107,44 @@ proxies:
       uuid: f6c7016b-6f94-4a32-975c-013f2494d312
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 5.1MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 5.1MB/s"
       port: 443
       reality-opts:
-        public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
-        short-id: 69cc4c0d5e
-      server: nl2.miyazono-kaori.com
-      servername: www.philips.com
+        public-key: JEH14p4YvGvmDdBct-yekywfh8xcbbHjTBoBteh_qSs
+        short-id: 7538ac
+      server: hk1.miyazono-kaori.com
+      servername: www.microsoft.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
       uuid: f6c7016b-6f94-4a32-975c-013f2494d312
     - cipher: aes-256-cfb
-      delay: 500
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.4MB/s"
+      delay: 1479
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 2.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.46
+      server: 103.186.155.67
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      delay: 596
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.6MB/s"
+      delay: 621
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 2.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.85
+      server: 103.186.154.243
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 532
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 2.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.235
       type: ss
       udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 7.2MB/s"
+      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 5.7MB/s"
       port: 8081
       reality-opts:
         public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
@@ -127,48 +157,28 @@ proxies:
       udp: true
       uuid: f1449968-0329-468b-b56b-1c573ac2a767
     - cipher: aes-256-cfb
-      delay: 532
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.4MB/s"
+      delay: 596
+      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 2.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.235
+      server: 103.186.155.85
       type: ss
       udp: true
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 3.7MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 4.6MB/s"
+      network: tcp
+      password: f7dbed8b1ca85124e793ba6c0bcfd0db
       port: 443
-      reality-opts:
-        public-key: OyMR_bsXbxfwuJ6HCtDOisl2Xf78RWYZXbaXb3CEiks
-        short-id: d513ea7473969a0a
-      server: us.netvora.space
-      servername: us.netvora.space
+      server: 58.152.18.189
       skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2baffe9c-099d-481b-8d9c-7eb351c9bf35
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 3.6MB/s"
-      port: 443
-      reality-opts:
-        public-key: JEH14p4YvGvmDdBct-yekywfh8xcbbHjTBoBteh_qSs
-        short-id: 7538ac
-      server: hk1.miyazono-kaori.com
-      servername: www.microsoft.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: f6c7016b-6f94-4a32-975c-013f2494d312
+      sni: www.nintendogames.net
+      type: trojan
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
       http-opts:
         headers: {}
         path:
             - /
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 6.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 6.6MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -181,7 +191,19 @@ proxies:
       udp: true
       uuid: 726dd73e-e06b-4665-a2c6-38a2277c499b
       xudp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.1MB/s"
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 1.2MB/s"
+      network: tcp
+      port: 180
+      server: 82.198.246.97
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+      xudp: true
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 5.7MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -210,36 +232,13 @@ proxies:
       udp: true
       uuid: e384913f-8863-47b4-8858-a84b68abb4a6
       xudp: true
-    - name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 1.1MB/s"
-      password: ""
-      port: 1090
-      server: 121.169.46.116
-      skip-cert-verify: true
-      type: socks5
-      username: ""
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 2.4MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: KJgODVMTQcncG_l1ZCDhzn8gEgMU2YRl2Yw2je6moWY
-        short-id: c0d856ec
-      server: tw1.miyazono-kaori.com
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 726dd73e-e06b-4665-a2c6-38a2277c499b
-      xudp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
       http-opts:
         headers: {}
         path:
             - /
-      name: "\U0001F1EC\U0001F1E7GB_2 | ⬇️ 8.2MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_2 | ⬇️ 9.9MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -255,7 +254,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 9.5MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 9.3MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -271,7 +270,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_3 | ⬇️ 8.6MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_3 | ⬇️ 9.3MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -286,7 +285,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 18.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 64.1MB/s"
       network: ws
       port: 443
       server: 198.62.62.248
@@ -301,7 +300,32 @@ proxies:
             User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
         path: /love
       xudp: true
-    - name: "\U0001F1EC\U0001F1E7GB_4 | ⬇️ 8.6MB/s"
+    - client-fingerprint: random
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_2 | ⬇️ 8.3MB/s"
+      port: 8443
+      reality-opts:
+        public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+        short-id: 58c512b4422e2517
+      server: 78.153.139.68
+      servername: images.apple.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+    - encryption: none
+      grpc-opts:
+        grpc-service-name: violet
+      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 2.7MB/s"
+      network: grpc
+      port: 443
+      server: usbad.osaip.net
+      type: vless
+      udp: true
+      uuid: fbcaa90a-04c2-4c87-adc1-045451c8ffe5
+      xudp: true
+    - name: "\U0001F1EC\U0001F1E7GB_4 | ⬇️ 9.3MB/s"
       network: ws
       port: 443
       server: 198.62.62.124
@@ -321,7 +345,7 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1F3\U0001F1F4NO_1 | ⬇️ 1.0MB/s"
+      name: "\U0001F1F3\U0001F1F4NO_1 | ⬇️ 1.7MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -334,16 +358,10 @@ proxies:
       udp: true
       uuid: 1218c022-dca8-49e5-b7d4-a04f3023db81
       xudp: true
-    - cipher: chacha20-ietf
-      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 4.1MB/s"
-      password: asd123456
-      port: 8388
-      server: 103.36.91.32
-      type: ss
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 6.7MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 8.7MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -356,9 +374,15 @@ proxies:
       udp: true
       uuid: 0a0d8e6f-8747-4ff6-afe0-e70aa97e7de8
       xudp: true
+    - cipher: chacha20-ietf
+      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 4.2MB/s"
+      password: asd123456
+      port: 8388
+      server: 103.36.91.32
+      type: ss
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F0\U0001F1F7KR_3 | ⬇️ 1.9MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 2.7MB/s"
       obfs: salamander
       obfs-password: MKsqfibVxwhZ3pCf
       password: f6c7016b-6f94-4a32-975c-013f2494d312
@@ -368,14 +392,32 @@ proxies:
       sni: kr1.miyazono-kaori.com
       type: hysteria2
       up: ""
-    - cipher: chacha20-ietf-poly1305
-      name: ❓Other_1 | ⬇️ 2.2MB/s
-      password: 5kWesolQ0y0PVdIrb65LbHT2u
-      port: 43902
-      server: basic-ru-0.undef.network
-      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 14.8MB/s"
+      password: ae74dd32-c336-4be4-9c15-f6108292b3e5
+      port: 12053
+      server: us1.anliangjifei.top
+      skip-cert-verify: true
+      sni: us1.anliangjifei.top
+      type: anytls
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_6 | ⬇️ 10.4MB/s"
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EC\U0001F1E7GB_5 | ⬇️ 16.5MB/s"
+      network: ws
+      port: 443
+      server: 198.62.62.235
+      servername: bank.alaska-tigr.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+      ws-opts:
+        headers:
+            Host: bank.alaska-tigr.info
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /love
+      xudp: true
+    - name: "\U0001F1F3\U0001F1F1NL_6 | ⬇️ 9.0MB/s"
       network: ws
       port: 2052
       server: 104.18.32.47
@@ -394,7 +436,7 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1EC\U0001F1E7GB_5 | ⬇️ 9.6MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_6 | ⬇️ 5.3MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -407,107 +449,21 @@ proxies:
       udp: true
       uuid: 726dd73e-e06b-4665-a2c6-38a2277c499b
       xudp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 19.2MB/s"
-      network: ws
-      port: 443
-      server: 184.174.80.199
-      servername: ous3.dean52.top
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-      ws-opts:
-        headers:
-            Host: ous3.dean52.top
-        path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 22.4MB/s"
-      network: ws
-      port: 443
-      server: 160.153.138.199
-      servername: ous3.dean52.top
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-      ws-opts:
-        headers:
-            Host: ous3.dean52.top
-        path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 13.3MB/s"
-      network: ws
-      port: 443
-      server: 156.255.123.199
-      servername: ous3.dean52.top
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-      ws-opts:
-        headers:
-            Host: ous3.dean52.top
-        path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_6 | ⬇️ 2.8MB/s"
-      network: ws
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_7 | ⬇️ 9.2MB/s"
+      network: tcp
       port: 443
-      server: 198.62.62.235
-      servername: bank.alaska-tigr.info
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 143.20.236.51
+      servername: yahoo.com
       tls: true
       type: vless
       udp: true
-      uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-      ws-opts:
-        headers:
-            Host: bank.alaska-tigr.info
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /love
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 12.0MB/s"
-      network: ws
-      port: 443
-      server: 50.62.91.199
-      servername: ous3.dean52.top
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-      ws-opts:
-        headers:
-            Host: ous3.dean52.top
-        path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 12.6MB/s"
-      network: ws
-      port: 443
-      server: 188.42.89.199
-      servername: ous3.dean52.top
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-      ws-opts:
-        headers:
-            Host: ous3.dean52.top
-        path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
     - alterId: 0
       cipher: auto
@@ -526,27 +482,20 @@ proxies:
             Host: mn1ray.jagoanvip.xyz
         path: /vvip
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_7 | ⬇️ 9.3MB/s"
-      network: tcp
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 28.4MB/s"
+      network: ws
       port: 443
-      reality-opts:
-        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-        short-id: c39cc7310a
-      server: 143.20.236.51
-      servername: yahoo.com
+      server: 184.174.80.199
+      servername: ous3.dean52.top
+      skip-cert-verify: false
       tls: true
-      type: vless
+      type: vmess
       udp: true
-      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+      uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+      ws-opts:
+        headers:
+            Host: ous3.dean52.top
+        path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 1.4MB/s"
-      password: ae74dd32-c336-4be4-9c15-f6108292b3e5
-      port: 12053
-      server: us1.anliangjifei.top
-      skip-cert-verify: true
-      sni: us1.anliangjifei.top
-      type: anytls
-      udp: true
