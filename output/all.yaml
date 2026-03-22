@@ -1,7 +1,7 @@
 proxies:
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 18.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 11.4MB/s"
       port: 443
       reality-opts:
         public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
@@ -13,20 +13,6 @@ proxies:
       type: vless
       udp: true
       uuid: e6567a1e-260f-4b0e-8de3-e2e12f90e854
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 8.6MB/s"
-      port: 2443
-      reality-opts:
-        public-key: 498LE1B8NFnfagrOnGGmuh80KqgKXMKiHbgcpxRqBB0
-        short-id: 2d989d13dba1
-      server: 152.67.158.177
-      servername: www.cloudflare.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
       name: "\U0001F1F5\U0001F1F1PL_1 | ⬇️ 8.0MB/s"
@@ -41,7 +27,35 @@ proxies:
       type: vless
       udp: true
       uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
-    - name: "\U0001F1F5\U0001F1F1PL_2 | ⬇️ 5.3MB/s"
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 8.2MB/s"
+      port: 2443
+      reality-opts:
+        public-key: 498LE1B8NFnfagrOnGGmuh80KqgKXMKiHbgcpxRqBB0
+        short-id: 2d989d13dba1
+      server: 152.67.158.177
+      servername: www.cloudflare.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 6.8MB/s"
+      port: 2443
+      reality-opts:
+        public-key: u8FFKKLif3K14_SqiDEF834Rpp4zETdOYt2mFrrsSnQ
+        short-id: b15116d00de0
+      server: 217.142.227.120
+      servername: www.cloudflare.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+    - name: "\U0001F1F5\U0001F1F1PL_2 | ⬇️ 4.7MB/s"
       password: IL37892054
       port: 443
       server: outgoing-ladybird.rooster465.autos
@@ -49,16 +63,9 @@ proxies:
       sni: outgoing-ladybird.rooster465.autos
       type: trojan
       udp: true
-    - name: "\U0001F1EE\U0001F1F1IL_1 | ⬇️ 5.8MB/s"
-      password: 3ac6a6ca99f74941b1eaf892818e2ddb
-      port: 443
-      server: 89.221.225.71
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - client-fingerprint: safari
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 10.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 12.5MB/s"
       port: 2443
       reality-opts:
         public-key: Rp0axdMMyjBY3su8yFECX1rMCcg90y0HcCHalmxs73Y
@@ -71,7 +78,7 @@ proxies:
       udp: true
       uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 11.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 9.8MB/s"
       port: 18959
       reality-opts:
         public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
@@ -83,34 +90,12 @@ proxies:
       type: vless
       udp: true
       uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 4.5MB/s"
-      port: 2443
-      reality-opts:
-        public-key: BmqEE16ux216I-WcezMLroZxIoV09PfeMS-xhyfWTVs
-        short-id: ff93655f5d
-      server: 140.238.11.149
-      servername: www.cloudflare.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
     - cipher: rc4-md5
-      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.4MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.2MB/s"
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 68.183.227.4
       type: ss
-      udp: true
-    - name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 4.0MB/s"
-      password: IL37892054
-      port: 443
-      server: enhanced-crayfish.rooster465.autos
-      skip-cert-verify: false
-      sni: enhanced-crayfish.rooster465.autos
-      type: trojan
       udp: true
     - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 4.3MB/s"
       password: 3ac6a6ca99f74941b1eaf892818e2ddb
@@ -121,7 +106,7 @@ proxies:
       udp: true
     - client-fingerprint: safari
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1FAAU_2 | ⬇️ 3.7MB/s"
+      name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 3.5MB/s"
       port: 2443
       reality-opts:
         public-key: uzRnmrb_UXbDNz5_IeFrC-PJfnuoUIsyaSEy1FgdPho
@@ -133,14 +118,27 @@ proxies:
       type: vless
       udp: true
       uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-    - name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 3.8MB/s"
+    - name: "\U0001F1EE\U0001F1F1IL_1 | ⬇️ 2.7MB/s"
       password: 3ac6a6ca99f74941b1eaf892818e2ddb
       port: 443
-      server: 85.237.206.249
+      server: 89.221.225.71
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1ED\U0001F1FAHU_1 | ⬇️ 9.3MB/s"
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 8.0MB/s"
+      port: 443
+      reality-opts:
+        public-key: I69t4VQEvCY-NlQuMVHGggvJ2aNo18gWstkmA-uQWxE
+      server: node-nl-main.amnesia.pw
+      servername: ozon.ru
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: d8e5386f-5b56-4a5a-87e2-26fecd735356
+    - name: "\U0001F1ED\U0001F1FAHU_1 | ⬇️ 8.9MB/s"
       network: ws
       port: 443
       server: 192.200.160.20
@@ -154,25 +152,22 @@ proxies:
         headers:
             Host: 639073677243791121.camry-perma.info
         path: /njvqoews?ed=2560
-    - alterId: 0
-      cipher: auto
-      delay: 1563
-      name: "\U0001F1EA\U0001F1F8ES_1 | ⬇️ 8.8MB/s"
-      port: 22324
-      server: 85.90.217.42
-      skip-cert-verify: true
-      tls: false
-      type: vmess
+    - name: "\U0001F1E6\U0001F1FAAU_2 | ⬇️ 2.1MB/s"
+      password: IL37892054
+      port: 443
+      server: enhanced-crayfish.rooster465.autos
+      skip-cert-verify: false
+      sni: enhanced-crayfish.rooster465.autos
+      type: trojan
       udp: true
-      uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    - client-fingerprint: safari
+    - client-fingerprint: qq
       flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 2.7MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 1.2MB/s"
       port: 2443
       reality-opts:
-        public-key: u8FFKKLif3K14_SqiDEF834Rpp4zETdOYt2mFrrsSnQ
-        short-id: b15116d00de0
-      server: 217.142.227.120
+        public-key: BmqEE16ux216I-WcezMLroZxIoV09PfeMS-xhyfWTVs
+        short-id: ff93655f5d
+      server: 140.238.11.149
       servername: www.cloudflare.com
       skip-cert-verify: false
       tls: true
@@ -181,7 +176,7 @@ proxies:
       uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
     - country: "\U0001F1EC\U0001F1E7GB"
       delay: 1276
-      name: "\U0001F1F8\U0001F1ECSG_3 | ⬇️ 2.5MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_3 | ⬇️ 3.9MB/s"
       password: 3ac6a6ca99f74941b1eaf892818e2ddb
       port: 443
       server: 185.151.146.64
@@ -190,124 +185,168 @@ proxies:
       udp: true
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
+      delay: 887
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.124
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1127
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.9MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.49
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1130
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.114
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 874
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.253
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 2971
+      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.210
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 1083
+      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.30
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
       delay: 2007
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 2.7MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 1.7MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.61
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
-      delay: 2049
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.3MB/s"
+      delay: 2664
+      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.6MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.235
+      server: 103.186.154.246
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
       delay: 905
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_9 | ⬇️ 2.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.242
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
-      delay: 1104
-      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.3MB/s"
+      delay: 1107
+      name: "\U0001F1FB\U0001F1F3VN_10 | ⬇️ 1.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.201
+      server: 103.186.154.225
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      delay: 2049
+      name: "\U0001F1FB\U0001F1F3VN_11 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.235
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
       delay: 2034
-      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_12 | ⬇️ 1.7MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.46
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
-      delay: 1831
-      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 1.9MB/s"
+      delay: 860
+      name: "\U0001F1FB\U0001F1F3VN_13 | ⬇️ 2.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.234
+      server: 103.186.155.67
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 1104
-      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 2.8MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.42
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 6.4MB/s"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 817aa69.default.nintendo.com:112719
+        mode: tls
+      port: 2377
+      server: 52.196.30.101
       type: ss
-    - delay: 1878
-      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 3.8MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.25.253
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      delay: 2205
-      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.8MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.54
-      type: ss
-    - name: "\U0001F1F8\U0001F1ECSG_4 | ⬇️ 7.0MB/s"
-      network: tcp
-      password: 86e150eb21c6faee48e81d496d7f61c2
-      port: 3419
-      server: 153.121.38.213
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 5.4MB/s"
-      network: tcp
-      password: 86e150eb21c6faee48e81d496d7f61c2
-      port: 4937
-      server: 153.121.38.213
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 4.9MB/s"
+      password: <password>
+      port: 8443
+      server: 876d9258-t9zts0-tao3bn-ggww.hkt.cdnhuawei.com
+      sni: 876d9258-t9zts0-tao3bn-ggww.hkt.cdnhuawei.com
+      tls: true
+      type: http
+      username: bcc58e88-e147-11ec-b286-f23c91cfbbc9
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 4.9MB/s"
+      password: <password>
+      port: 8443
+      server: cd345171-t9zts0-tahh2s-tng5.hkt.cdnhuawei.com
+      sni: cd345171-t9zts0-tahh2s-tng5.hkt.cdnhuawei.com
+      tls: true
+      type: http
+      username: 2ec58858-976b-11ea-82ef-f23c9164ca5d
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_5 | ⬇️ 3.9MB/s"
-      network: ws
-      password: 13c169be-8592-4eaa-94cb-69c859e7d987
-      port: 443
-      server: 128.199.252.180
-      skip-cert-verify: true
-      sni: ubu.okaoclax.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-        path: /trojan-ws
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_6 | ⬇️ 3.7MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_4 | ⬇️ 4.4MB/s"
       password: ZY07256934
       port: 443
       server: delicate-buck.rooster465.autos
       skip-cert-verify: false
       type: trojan
       udp: true
-    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 6.2MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 2.6MB/s"
       password: <password>
       port: 8443
-      server: 65dcb648-t9zts0-tb016b-1m7l4.hkt.cdnhuawei.com
-      sni: 65dcb648-t9zts0-tb016b-1m7l4.hkt.cdnhuawei.com
+      server: 9d45e7b2-t9zts0-tqo482-1ppvf.hkt.cdnhuawei.com
+      sni: 9d45e7b2-t9zts0-tqo482-1ppvf.hkt.cdnhuawei.com
       tls: true
       type: http
-      username: bd515574-3b10-11ee-ac14-f23c9164ca5d
-    - name: "\U0001F1F9\U0001F1FCTW_2 | ⬇️ 4.7MB/s"
+      username: 8da5616c-8566-11ee-9a21-f23c9164ca5d
+    - name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 3.4MB/s"
+      password: <password>
+      port: 8443
+      server: d475037f-t9zts0-teu3io-1t4wg.hkt.cdnhuawei.com
+      sni: d475037f-t9zts0-teu3io-1t4wg.hkt.cdnhuawei.com
+      tls: true
+      type: http
+      username: 1b13e20c-e778-11ef-907f-f23c913c8d2b
+    - name: "\U0001F1ED\U0001F1F0HK_5 | ⬇️ 4.9MB/s"
+      password: <password>
+      port: 8443
+      server: a329ace7-t9zts0-tn57fp-5ifr.hkt.cdnhuawei.com
+      sni: a329ace7-t9zts0-tn57fp-5ifr.hkt.cdnhuawei.com
+      tls: true
+      type: http
+      username: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+    - name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 2.5MB/s"
       password: mrwdfNTD8M79LCukCieldrqZWqs=
       port: 1443
       server: twmoon1-cdn-route.couldflare-cdn.com
@@ -316,74 +355,17 @@ proxies:
       tls: true
       type: http
       username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 4.5MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: e02ff406-4865-48d0-ad5d-40d6bd27014e
-      port: 21622
-      server: hk.xn--ehqa22b.site
-      skip-cert-verify: false
-      sni: ""
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 5.1MB/s"
-      password: <password>
-      port: 8443
-      server: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
-      sni: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
-      tls: true
-      type: http
-      username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-    - name: "\U0001F1F9\U0001F1FCTW_3 | ⬇️ 3.9MB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      udp: true
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_7 | ⬇️ 3.8MB/s"
-      network: ws
-      password: 13c169be-8592-4eaa-94cb-69c859e7d987
-      port: 443
-      server: ubu.okaoclax.me
-      skip-cert-verify: false
-      sni: ubu.okaoclax.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
-        path: /trojan-ws
     - cipher: aes-256-cfb
-      name: "\U0001F1F5\U0001F1F1PL_3 | ⬇️ 3.3MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_3 | ⬇️ 3.6MB/s"
       password: wfLC2y7rzZyCmuyt
       port: 9093
       server: 217.30.10.70
       type: ss
-    - client-fingerprint: random
-      host: navi.bankrate.com
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 8.1MB/s"
-      path: /
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      skip-cert-verify: true
-      tfo: true
-      tls: true
-      type: vless
-      uuid: 505ef73e-daa5-4ff7-ac66-91770cb31dd4
     - alpn:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1EE\U0001F1E9ID_1 | ⬇️ 5.1MB/s"
+      name: "\U0001F1EE\U0001F1E9ID_1 | ⬇️ 4.1MB/s"
       network: ws
       port: 443
       server: 47.57.182.141
@@ -397,250 +379,330 @@ proxies:
             Host: mn1ray.jagoanvip.xyz
         path: /vvip
       xudp: true
-    - name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 5.2MB/s"
+    - name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 4.9MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
       skip-cert-verify: true
       tls: true
       type: http
+      udp: true
       username: test
     - cipher: aes-256-cfb
-      name: "\U0001F1F5\U0001F1F1PL_4 | ⬇️ 3.5MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_4 | ⬇️ 4.0MB/s"
       password: cp8pRSUAyLhTfVWH
       port: 9064
       server: 217.30.10.70
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_9 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_14 | ⬇️ 2.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.35
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_10 | ⬇️ 1.4MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_15 | ⬇️ 1.9MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.20
+      server: 103.186.154.213
       type: ss
       udp: true
+    - client-fingerprint: random
+      host: navi.bankrate.com
+      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 1.2MB/s"
+      path: /
+      port: 443
+      reality-opts:
+        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+        short-id: 2da72ce6
+      server: 174.136.205.68
+      servername: navi.bankrate.com
+      skip-cert-verify: true
+      tfo: true
+      tls: true
+      type: vless
+      uuid: 505ef73e-daa5-4ff7-ac66-91770cb31dd4
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_11 | ⬇️ 1.6MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.8
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_12 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.187
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_13 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.231
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_14 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.24
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_15 | ⬇️ 2.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_16 | ⬇️ 2.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.239
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_16 | ⬇️ 1.6MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_17 | ⬇️ 1.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.13
+      server: 103.186.155.8
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_17 | ⬇️ 1.7MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_18 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.38
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_19 | ⬇️ 2.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.231
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_20 | ⬇️ 1.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.24
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_21 | ⬇️ 2.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.218
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_22 | ⬇️ 2.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.186
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_18 | ⬇️ 1.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_23 | ⬇️ 2.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.248
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_24 | ⬇️ 1.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.185
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_19 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_25 | ⬇️ 2.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.127
+      server: 103.186.155.103
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_26 | ⬇️ 1.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.64
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_20 | ⬇️ 1.9MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_27 | ⬇️ 1.8MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.211
+      server: 103.186.155.225
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_21 | ⬇️ 1.7MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_28 | ⬇️ 2.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.227
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_22 | ⬇️ 2.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.209
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_23 | ⬇️ 1.8MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.227
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_24 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.30
+      server: 103.186.154.13
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_25 | ⬇️ 1.9MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_29 | ⬇️ 2.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.81
+      server: 103.186.155.31
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_30 | ⬇️ 2.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.117
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 8.6MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.191
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_31 | ⬇️ 2.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.223
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_26 | ⬇️ 2.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.57
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_27 | ⬇️ 1.0MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_32 | ⬇️ 1.6MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.236
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_28 | ⬇️ 1.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_33 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.30
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_34 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.209
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_35 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.223
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_36 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.245
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_37 | ⬇️ 1.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.106
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_38 | ⬇️ 1.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.43
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_39 | ⬇️ 1.8MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.81
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_40 | ⬇️ 1.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.15
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_29 | ⬇️ 1.4MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_41 | ⬇️ 1.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.49
+      server: 103.186.154.32
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_30 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_42 | ⬇️ 1.7MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.44
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_31 | ⬇️ 1.5MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_43 | ⬇️ 2.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.55
+      server: 103.186.154.181
       type: ss
+      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_32 | ⬇️ 1.5MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_44 | ⬇️ 1.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.29
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_45 | ⬇️ 1.9MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.226
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_33 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.35
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_34 | ⬇️ 1.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_46 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.119
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_35 | ⬇️ 2.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_47 | ⬇️ 1.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.40
+      server: 103.186.155.37
       type: ss
-      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_36 | ⬇️ 1.5MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_48 | ⬇️ 1.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.113
+      server: 103.186.154.66
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_37 | ⬇️ 1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.45
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_38 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.71
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_39 | ⬇️ 1.6MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.12
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_40 | ⬇️ 1.4MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_49 | ⬇️ 1.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.116
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_41 | ⬇️ 1.7MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_50 | ⬇️ 1.6MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.183
+      server: 103.186.155.12
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_42 | ⬇️ 1.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_51 | ⬇️ 1.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.219
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_43 | ⬇️ 1.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_52 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.227
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_53 | ⬇️ 1.7MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.238
       type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_54 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.243
+      type: ss
       udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_55 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.249
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_56 | ⬇️ 1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.111
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_57 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.133
+      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 5.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 6.4MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -653,39 +715,34 @@ proxies:
       udp: true
       uuid: 637cd62e-e090-4f3b-830b-f67869911e11
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_44 | ⬇️ 1.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_58 | ⬇️ 2.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.133
+      server: 103.186.155.28
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_45 | ⬇️ 1.5MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_59 | ⬇️ 1.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.45
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_46 | ⬇️ 1.8MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.126
+      server: 103.186.154.79
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_47 | ⬇️ 2.5MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_60 | ⬇️ 1.1MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.214
+      server: 103.186.155.85
       type: ss
+      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_48 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_61 | ⬇️ 1.7MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.52
+      server: 103.186.154.19
       type: ss
     - client-fingerprint: random
       host: navi.bankrate.com
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 4.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 6.5MB/s"
       path: /
       port: 443
       reality-opts:
@@ -699,119 +756,121 @@ proxies:
       type: vless
       uuid: 97b5436e-ff7c-443a-bc6b-72769f53d862
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_49 | ⬇️ 1.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_62 | ⬇️ 2.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.149
+      server: 103.186.155.43
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_50 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.34
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_51 | ⬇️ 1.9MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_63 | ⬇️ 1.6MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.75
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_52 | ⬇️ 1.8MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_64 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.22
+      server: 103.186.154.52
       type: ss
-      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_53 | ⬇️ 1.6MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_65 | ⬇️ 1.9MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.135
+      server: 103.186.155.237
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_54 | ⬇️ 1.4MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_66 | ⬇️ 1.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.80
+      server: 103.186.154.22
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_55 | ⬇️ 1.4MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_67 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.76
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_56 | ⬇️ 1.6MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.202
+      server: 103.186.155.113
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_57 | ⬇️ 2.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.102
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_58 | ⬇️ 1.6MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.254
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_59 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.204
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_60 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.32
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_61 | ⬇️ 1.7MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.231
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_62 | ⬇️ 1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.209
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_63 | ⬇️ 2.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_68 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.16
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_64 | ⬇️ 2.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_69 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.180
+      server: 103.186.154.231
       type: ss
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_5 | ⬇️ 3.2MB/s"
+      network: tcp
+      password: 86e150eb21c6faee48e81d496d7f61c2
+      port: 4674
+      server: 160.16.85.33
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_65 | ⬇️ 1.5MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_70 | ⬇️ 1.7MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.232
+      server: 103.186.154.202
       type: ss
+    - name: "\U0001F1F8\U0001F1ECSG_6 | ⬇️ 4.1MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 25343
+      server: 54.46.52.255
+      skip-cert-verify: true
+      sni: t.me%252Fripaojiedian
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 1.5MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 3022
+      server: 13.115.9.169
+      skip-cert-verify: true
+      sni: t.me%252Fripaojiedian
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5JP_4 | ⬇️ 2.3MB/s"
+      network: tcp
+      password: 86e150eb21c6faee48e81d496d7f61c2
+      port: 2001
+      server: 52.195.220.124
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1F8\U0001F1ECSG_7 | ⬇️ 1.5MB/s"
+      network: tcp
+      password: 86e150eb21c6faee48e81d496d7f61c2
+      port: 4674
+      server: 52.195.220.124
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 5.5MB/s"
+      network: tcp
+      password: BxceQaOe
+      port: 15407
+      server: 18.167.37.12
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_66 | ⬇️ 2.3MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_71 | ⬇️ 2.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.224
+      server: 103.186.154.254
       type: ss
+    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 2.3MB/s"
+      network: tcp
+      password: 86e150eb21c6faee48e81d496d7f61c2
+      port: 3057
+      server: 160.16.85.33
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
