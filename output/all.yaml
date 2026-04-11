@@ -1,29 +1,7 @@
 proxies:
-    - alterId: 0
-      cipher: auto
-      delay: 1052
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 2.1MB/s"
-      port: 180
-      server: 82.198.246.250
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - cipher: chacha20-ietf-poly1305
-      delay: 596
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 5.2MB/s"
-      password: somebody
-      plugin: obfs
-      plugin-opts:
-        host: 20xteamxa9-usa3-a7xr.update.microsoft.com
-        mode: http
-      port: 30011
-      server: 38.95.121.189
-      type: ss
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT_1 | ⬇️ 6.4MB/s"
+      name: "\U0001F1E6\U0001F1F9AT_1 | ⬇️ 4.6MB/s"
       port: 7443
       reality-opts:
         public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
@@ -35,29 +13,19 @@ proxies:
       type: vless
       udp: true
       uuid: 8f8380ae-9f5d-4cb5-8f5f-0f70fbe054a9
-    - cipher: aes-256-cfb
-      delay: 1503
-      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.58
-      type: ss
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 5.0MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 6d122242-df09-4720-b9f2-43a0aeb1045f
-      port: 53276
-      server: 663.zlstar.sbs
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 1.3MB/s"
+      port: 180
+      server: 82.198.246.97
       skip-cert-verify: true
-      sni: 663.zlstar.sbs
-      type: hysteria2
-      up: ""
+      tls: false
+      type: vmess
+      udp: true
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 3.1MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.0MB/s"
       network: tcp
       port: 443
       server: darknet-free.alexid.org
@@ -66,8 +34,30 @@ proxies:
       udp: true
       uuid: 653d9e84-3d3d-4613-9b3b-2297f7a1512b
       xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 6.3MB/s"
+      network: tcp
+      port: 180
+      server: 82.198.246.250
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 1.1MB/s"
+      port: 180
+      server: 82.198.246.46
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 5.0MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 2.8MB/s"
       password: uThbm8eGmXZ7GKqnWy
       port: 443
       server: nl-4.tr202507.com
@@ -75,62 +65,56 @@ proxies:
       type: trojan
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 1.6MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 1.9MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.196
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_2 | ⬇️ 2.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.250
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.131
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.216
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_3 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.218
+      server: 103.186.154.190
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_4 | ⬇️ 1.4MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 2.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.213
+      server: 103.186.154.49
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_5 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.75
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_6 | ⬇️ 1.2MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.220
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_7 | ⬇️ 1.8MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.234
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.13
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_9 | ⬇️ 1.5MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_8 | ⬇️ 2.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.156
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_10 | ⬇️ 1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.214
-      type: ss
-    - name: "\U0001F1EE\U0001F1F3IN_1 | ⬇️ 1.6MB/s"
+    - name: "\U0001F1EE\U0001F1F3IN_1 | ⬇️ 3.2MB/s"
       password: ""
       port: 1080
       server: 139.59.24.173
@@ -138,236 +122,131 @@ proxies:
       type: socks5
       username: ""
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_11 | ⬇️ 1.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_9 | ⬇️ 1.6MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.192
+      server: 103.186.155.234
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_12 | ⬇️ 1.0MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_10 | ⬇️ 1.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.230
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_11 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.112
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_12 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.16
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_13 | ⬇️ 1.0MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_13 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.192
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_14 | ⬇️ 1.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.251
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_14 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_15 | ⬇️ 1.2MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.45
+      server: 103.186.154.233
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_16 | ⬇️ 1.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.118
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_15 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_17 | ⬇️ 1.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.17
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_16 | ⬇️ 1.7MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.200
+      server: 103.186.155.42
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_17 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_18 | ⬇️ 1.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.58
+      server: 103.186.155.146
       type: ss
-      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_18 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_19 | ⬇️ 1.5MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.45
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_19 | ⬇️ 1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.21
+      server: 103.186.155.203
       type: ss
     - cipher: aes-256-cfb
       name: "\U0001F1FB\U0001F1F3VN_20 | ⬇️ 1.0MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.211
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_21 | ⬇️ 1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
       server: 103.186.155.8
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_22 | ⬇️ 1.2MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_21 | ⬇️ 1.3MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.205
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_23 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.60
+      server: 103.186.155.206
       type: ss
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 3.3MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 2.2MB/s"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: 8080
       server: 82.38.31.99
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_24 | ⬇️ 1.1MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_22 | ⬇️ 1.6MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.222
+      server: 103.186.154.14
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_23 | ⬇️ 1.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.72
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_25 | ⬇️ 1.6MB/s"
+      name: "\U0001F1FB\U0001F1F3VN_24 | ⬇️ 1.9MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.24
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_25 | ⬇️ 1.4MB/s"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.220
       type: ss
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 20.3MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 6d122242-df09-4720-b9f2-43a0aeb1045f
-      port: 53275
-      server: 662.zlstar.sbs
-      skip-cert-verify: true
-      sni: 662.zlstar.sbs
-      type: hysteria2
-      up: ""
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 4.4MB/s"
-      network: tcp
-      port: 8443
-      server: 178.249.213.177
-      servername: jp1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - alterId: "2"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.1MB/s"
-      network: ws
-      port: 80
-      server: 1d1a8655-t70f40-tkhmfr-1jm8i.hkt.gotochinatown.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-      ws-opts:
-        headers:
-            Host: 1d1a8655-t70f40-tkhmfr-1jm8i.hkt.gotochinatown.net
-        path: /
-      xudp: true
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 1.3MB/s"
-      network: ws
-      port: 80
-      server: 982216af-t9w4g0-tbdyji-ach1.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      udp: true
-      uuid: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-    - alterId: "2"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 1.4MB/s"
-      network: ws
-      port: 80
-      server: 6c4abe27-t70f40-tfjz9x-1t5n1.hkt.gotochinatown.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-      ws-opts:
-        headers:
-            Host: 6c4abe27-t70f40-tfjz9x-1t5n1.hkt.gotochinatown.net
-        path: /
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FF\U0001F1E6ZA_1 | ⬇️ 3.1MB/s"
-      password: aduB9HGxQHjA2SBMRjkHX6
-      port: 443
-      server: 102.37.156.224
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_26 | ⬇️ 1.5MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.16
       type: ss
-      udp: true
-    - alterId: "2"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_4 | ⬇️ 2.4MB/s"
-      network: ws
-      port: 80
-      server: hkt.gotochinatown.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-      xudp: true
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_5 | ⬇️ 1.7MB/s"
-      network: ws
-      port: 80
-      server: 233f2f38-t9xz40-thd0h1-1rz5s.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-    - alterId: "2"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_6 | ⬇️ 1.5MB/s"
-      network: ws
-      port: 80
-      server: 5371ca1c-t70f40-tbnk1n-ueq.hkt.gotochinatown.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-      ws-opts:
-        headers:
-            Host: 5371ca1c-t70f40-tbnk1n-ueq.hkt.gotochinatown.net
-        path: /
-      xudp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_27 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.197
+      type: ss
     - client-fingerprint: chrome
       name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 9.9MB/s"
       network: tcp
@@ -381,8 +260,22 @@ proxies:
       type: vless
       udp: true
       uuid: 2e12289e-d613-4fd8-93e7-6281666ab1db
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 4.7MB/s"
+      network: tcp
+      port: 8443
+      server: 178.249.213.177
+      servername: jp1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 6.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 8.8MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -394,12 +287,13 @@ proxies:
       type: vless
       udp: true
       uuid: b6e87e50-73c5-4ff2-9545-3d3896ba8edb
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_26 | ⬇️ 1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.206
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FF\U0001F1E6ZA_1 | ⬇️ 2.9MB/s"
+      password: aduB9HGxQHjA2SBMRjkHX6
+      port: 443
+      server: 102.37.156.224
       type: ss
+      udp: true
     - client-fingerprint: chrome
       encryption: none
       http-opts:
@@ -419,7 +313,26 @@ proxies:
       udp: true
       uuid: 39c72576-8e0a-4249-ab37-0c89ce6a8e93
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 1.5MB/s"
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_28 | ⬇️ 1.0MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.206
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_29 | ⬇️ 1.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.53
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_30 | ⬇️ 1.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.218
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 1.1MB/s"
       password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
       port: 443
       server: a2cb60c5-t9zts0-td95qh-1isea.sj.oshuawei.com
@@ -427,185 +340,27 @@ proxies:
       tls: true
       type: http
       username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 1.1MB/s"
-      network: tcp
-      port: 60000
-      reality-opts:
-        public-key: v4GV4wYewVOF_MzScD8SgDNfXZwibifEWxAvzUodDj4
-        short-id: 7b41d5bd79
-      server: 86.53.104.20
-      servername: www.tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 961a693a-ac26-4000-a799-6b6ba7358f0d
-      xudp: true
-    - name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 3.4MB/s"
+    - name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 4.4MB/s"
       port: 443
       server: 103.62.50.130
       skip-cert-verify: true
       tls: true
       type: http
-    - alterId: "2"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_7 | ⬇️ 1.1MB/s"
-      network: ws
-      port: 80
-      server: hkt.gotochinatown.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 5.3MB/s"
+      password: somebody
+      plugin: obfs
+      plugin-opts:
+        host: 20xteamxa9-diy02-a7xr.update.microsoft.com
+        mode: http
+      port: 30011
+      server: 38.244.47.161
+      type: ss
       udp: true
-      uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-      xudp: true
-    - alterId: "2"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_8 | ⬇️ 1.3MB/s"
-      network: ws
-      port: 80
-      server: 320ede8b-t70f40-tfi5fd-1imi4.hkt.gotochinatown.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-      ws-opts:
-        headers:
-            Host: 320ede8b-t70f40-tfi5fd-1imi4.hkt.gotochinatown.net
-        path: /
-      xudp: true
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_9 | ⬇️ 1.3MB/s"
-      network: ws
-      port: 80
-      server: 07b0ba0a-t9xz40-tbicd9-1go3q.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_10 | ⬇️ 1.2MB/s"
-      network: ws
-      port: 80
-      server: be434456-t9w4g0-tnsc3a-1f0gu.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_11 | ⬇️ 1.1MB/s"
-      network: ws
-      port: 80
-      server: be62c43c-t9u9s0-tb5rbt-1kcpe.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-    - alterId: "2"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_12 | ⬇️ 1.9MB/s"
-      network: ws
-      port: 80
-      server: 7c733709-t70f40-tcw58g-1p0be.hkt.gotochinatown.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-      ws-opts:
-        headers:
-            Host: 7c733709-t70f40-tcw58g-1p0be.hkt.gotochinatown.net
-        path: /
-      xudp: true
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_13 | ⬇️ 1.3MB/s"
-      network: ws
-      port: 80
-      server: 6b4044b6-t9w4g0-tqx9ef-1k0yf.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_14 | ⬇️ 1.3MB/s"
-      network: ws
-      port: 80
-      server: f6d8c7bd-t9sf40-ts40sw-14g76.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_15 | ⬇️ 1.3MB/s"
-      network: ws
-      port: 80
-      server: de57af2c-t8ysg0-t8ygh3-81nv.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_16 | ⬇️ 1.4MB/s"
-      network: ws
-      port: 80
-      server: 8a364476-t8ysg0-t95ncr-1slop.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 2.5MB/s"
+      name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 2.9MB/s"
       network: tcp
       port: 8443
       reality-opts:
@@ -618,17 +373,43 @@ proxies:
       udp: true
       uuid: 4b056394-2f40-11f1-bffe-46c4782ac1a7
       xudp: true
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_17 | ⬇️ 1.1MB/s"
-      network: ws
-      port: 80
-      server: e87b0f1a-t9sf40-tipjoa-1slop.hkt.gotochinatown.net
-      tls: false
-      type: vmess
-      uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
+    - cipher: aes-256-cfb
+      delay: 449
+      name: "\U0001F1FB\U0001F1F3VN_31 | ⬇️ 1.7MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.252
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1191
+      name: "\U0001F1FB\U0001F1F3VN_32 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.20
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1503
+      name: "\U0001F1FB\U0001F1F3VN_33 | ⬇️ 1.4MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.58
+      type: ss
+      udp: true
+    - delay: 676
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.1MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 58.152.25.253
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 511
+      name: "\U0001F1FB\U0001F1F3VN_34 | ⬇️ 1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.244
+      type: ss
+      udp: true
