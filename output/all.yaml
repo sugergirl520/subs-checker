@@ -1,18 +1,70 @@
 proxies:
-    - cipher: chacha20-ietf
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 4.0MB/s"
-      obfs: tls1.2_ticket_auth
-      obfs-param: ""
-      password: dongtaiwang.com
-      port: 33336
-      protocol: auth_chain_a
-      protocol-param: ""
-      server: ssr2.762988.xyz
-      type: ssr
+    - client-fingerprint: edge
+      flow: xtls-rprx-vision-udp443
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 7.3MB/s"
+      port: 443
+      server: 85.234.114.53
+      servername: r1.mizulina.top
+      skip-cert-verify: false
+      tls: true
+      type: vless
       udp: true
+      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 3.6MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+      udp: true
+      username: T2clM0QlM0Q6
+    - client-fingerprint: edge
+      flow: xtls-rprx-vision-udp443
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 5.2MB/s"
+      port: 22231
+      server: r1.mizulina.top
+      servername: r1.mizulina.top
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F9IT_1 | ⬇️ 2.8MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 5.3MB/s"
+      port: 22231
+      server: r1.mizulina.top
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    - client-fingerprint: edge
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 5.4MB/s"
+      port: 22231
+      server: 85.234.114.53
+      servername: r1.mizulina.top
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F9IT_1 | ⬇️ 2.2MB/s"
+      port: 443
+      reality-opts:
+        public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+        short-id: 7a3f9e2b1c8d4f6a
+      server: 31.76.113.26
+      servername: it.s3-cloud.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F9IT_2 | ⬇️ 2.2MB/s"
       port: 443
       reality-opts:
         public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
@@ -26,63 +78,7 @@ proxies:
       uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F9IT_2 | ⬇️ 2.7MB/s"
-      port: 443
-      reality-opts:
-        public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-        short-id: 7a3f9e2b1c8d4f6a
-      server: 31.76.113.26
-      servername: it.s3-cloud.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-    - name: "\U0001F1F7\U0001F1F4RO_1 | ⬇️ 5.8MB/s"
-      port: 9002
-      server: 84.239.14.158
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2 | ⬇️ 5.7MB/s"
-      port: 9002
-      server: 84.239.49.239
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_3 | ⬇️ 5.2MB/s"
-      port: 9002
-      server: 84.239.49.154
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4 | ⬇️ 5.1MB/s"
-      port: 9002
-      server: 84.239.49.185
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_5 | ⬇️ 5.2MB/s"
-      port: 9002
-      server: 84.239.14.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_6 | ⬇️ 5.1MB/s"
-      port: 9002
-      server: 84.239.49.175
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F9IT_3 | ⬇️ 3.1MB/s"
+      name: "\U0001F1EE\U0001F1F9IT_3 | ⬇️ 1.6MB/s"
       port: 443
       reality-opts:
         public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
@@ -94,8 +90,43 @@ proxies:
       type: vless
       udp: true
       uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    - name: "\U0001F1F7\U0001F1F4RO_1 | ⬇️ 4.0MB/s"
+      port: 9002
+      server: 84.239.14.158
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_2 | ⬇️ 4.0MB/s"
+      port: 9002
+      server: 84.239.49.154
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_3 | ⬇️ 4.1MB/s"
+      port: 9002
+      server: 84.239.49.185
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_4 | ⬇️ 3.6MB/s"
+      port: 9002
+      server: 84.239.14.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_5 | ⬇️ 3.5MB/s"
+      port: 9002
+      server: 84.239.49.239
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1EEFI_1 | ⬇️ 6.8MB/s"
+      name: "\U0001F1EB\U0001F1EEFI_1 | ⬇️ 6.3MB/s"
       port: 443
       reality-opts:
         public-key: HlxgAXuwwby0lujjT2LKBPF0udWK4SVjtMPyKtiNdEw
@@ -107,187 +138,163 @@ proxies:
       type: vless
       udp: true
       uuid: 6d088fbd-528d-4f2a-be26-317dcda3c6ee
-    - cipher: aes-256-cfb
-      delay: 579
-      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 32.9MB/s"
-      password: amazonskr05
-      port: 443
-      server: 35.183.93.91
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1E6\U0001F1EBAF"
+      delay: 739
+      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 5.1MB/s"
+      password: V6_RXT2UlL5ONSD3Fmvd9XqBGNmespBu
+      port: 28893
+      server: 103.244.145.247
       type: ss
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision-udp443
-      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 8.4MB/s"
-      port: 22231
-      server: r1.mizulina.top
-      servername: r1.mizulina.top
-      skip-cert-verify: false
-      tls: true
-      type: vless
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 684
+      name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 5.2MB/s"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 63.185.124.176
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
       udp: true
-      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    - cipher: aes-256-gcm
+      country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 585
+      name: "\U0001F1F7\U0001F1FARU_1 | ⬇️ 4.8MB/s"
+      password: fbaf33bcffe53cf9
+      port: 20129
+      server: 195.58.49.104
+      type: ss
+    - cipher: aes-256-gcm
+      country: "\U0001F1F7\U0001F1FARU"
+      delay: 652
+      name: "\U0001F1F7\U0001F1FARU_2 | ⬇️ 2.3MB/s"
+      password: cfe685726eea2c4b
+      port: 20981
+      server: 45.140.169.244
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 1312
+      name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 2.8MB/s"
+      password: qwerREWQ@@
+      port: 3417
+      server: 221.150.109.19
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 589
+      name: "\U0001F1F0\U0001F1F7KR_3 | ⬇️ 1.6MB/s"
+      password: qwerREWQ@@
+      port: 55104
+      server: 221.150.109.20
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EC\U0001F1E7GB"
+      delay: 1113
+      name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 2.6MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.192
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 2.6MB/s"
+      password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+      port: 50099
+      server: 61.231.18.14
+      type: ss
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 4.8MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: db212b11-76a7-48d8-a848-1ea44f275d6c
+      port: 443
+      server: hk3-lisa.vxrelay.xyz
+      skip-cert-verify: false
+      sni: hk3.vxrelay.xyz
+      type: hysteria2
+      up: ""
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 8.1MB/s"
-      port: 22231
-      server: r1.mizulina.top
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    - cipher: aes-256-cfb
-      delay: 578
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 2.7MB/s"
-      password: amazonskr05
-      port: 443
-      server: 18.159.210.129
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 2448
-      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 5.5MB/s"
-      port: 180
-      server: 82.198.246.37
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision-udp443
-      name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 6.0MB/s"
-      port: 443
-      server: 85.234.114.53
-      servername: r1.mizulina.top
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 6.0MB/s"
-      port: 22231
-      server: 85.234.114.53
-      servername: r1.mizulina.top
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    - country: "\U0001F1F7\U0001F1F4RO"
-      delay: 754
-      name: "\U0001F1EE\U0001F1EAIE_1 | ⬇️ 9.2MB/s"
-      password: t1k169n5zmvvwn96r9ft
-      port: 57452
-      server: 146.70.90.195
-      skip-cert-verify: true
-      sni: api-yandex.maps.ru
-      type: trojan
-      udp: true
-    - country: "\U0001F1F7\U0001F1F4RO"
-      delay: 2440
-      name: "\U0001F1EE\U0001F1EAIE_2 | ⬇️ 8.7MB/s"
-      password: t1k169n5zmvvwn96r9ft
-      port: 57452
-      server: 146.70.90.198
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-128-gcm
-      country: "\U0001F1FA\U0001F1F8 US"
-      delay: 1544
-      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 23.3MB/s"
-      password: t6d26id0pjzdo3x5wtlf
-      port: 10878
-      server: 69.164.240.83
-      type: ss
-    - cipher: aes-128-gcm
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1502
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 23.2MB/s"
-      password: lioxj6qx5wj7hz4m9pom
-      port: 10875
-      server: 174.138.187.118
-      type: ss
-    - cipher: aes-128-gcm
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 533
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 155.0MB/s"
-      password: 3px0wmx0e81145g568ga
-      port: 10880
-      server: 69.164.240.86
-      type: ss
-    - country: "\U0001F1F7\U0001F1F4RO"
-      delay: 855
-      name: "\U0001F1EE\U0001F1EAIE_3 | ⬇️ 2.4MB/s"
-      password: t1k169n5zmvvwn96r9ft
-      port: 57452
-      server: 146.70.90.197
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.6MB/s"
-      password: 4f4d1167-ef14-4304-9bce-0740472503ef
-      port: "47909"
-      server: 90081bb25c.node.tro.cac.cab
-      skip-cert-verify: true
-      sni: is.01.naiun.bilibili.com
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 3.1MB/s"
+      name: "\U0001F1F9\U0001F1FCTW_2 | ⬇️ 2.4MB/s"
+      network: tcp
       port: 443
       reality-opts:
-        public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-      security: reality
-      server: t13.qifei.app
-      servername: www.amazon.com
+        public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+        short-id: "473277e2"
+      server: tw3.miyazono-kaori.com
+      servername: dlcdnets.asus.com
+      skip-cert-verify: false
+      tfo: false
       tls: true
       type: vless
-      uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
-    - name: "\U0001F1F9\U0001F1FCTW_1 | ⬇️ 2.6MB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
+      uuid: bce38beb-a6d0-41d7-9c0a-26eed9a6634d
+    - name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 1.2MB/s"
+      password: <password>
+      port: 8443
+      server: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
+      sni: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
       tls: true
       type: http
-      udp: true
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 1.3MB/s"
-      password: de003c72-0157-11ef-86da-f23c91cfbbc9
+      username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 1.5MB/s"
+      password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
       port: 443
-      server: ee1b4ea0-t9zts0-tm3dx0-1r9dt.jp.oshuawei.com
-      sni: ee1b4ea0-t9zts0-tm3dx0-1r9dt.jp.oshuawei.com
+      server: 8997795f-t9zts0-titr5n-1hhyy.jp.oshuawei.com
+      sni: 8997795f-t9zts0-titr5n-1hhyy.jp.oshuawei.com
       tls: true
       type: http
-      username: de003c72-0157-11ef-86da-f23c91cfbbc9
-    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 1.1MB/s"
-      password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+      username: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 1.4MB/s"
+      password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
       port: 443
-      server: 13f4082b-tegxs0-thpx3l-141tv.jp.oshuawei.com
-      sni: 13f4082b-tegxs0-thpx3l-141tv.jp.oshuawei.com
+      server: 94e9f26a-tegxs0-twnp5a-ahsb.jp.oshuawei.com
+      sni: 94e9f26a-tegxs0-twnp5a-ahsb.jp.oshuawei.com
       tls: true
       type: http
-      username: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-    - name: "\U0001F1EF\U0001F1F5JP_4 | ⬇️ 1.2MB/s"
-      password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+      username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+    - name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 1.6MB/s"
+      password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
       port: 443
-      server: c2de1797-ta1og0-tkka1f-1k25p.jp.oshuawei.com
-      sni: c2de1797-ta1og0-tkka1f-1k25p.jp.oshuawei.com
+      server: 68f26f08-t9zts0-tazlv3-11p9g.jp.oshuawei.com
+      sni: 68f26f08-t9zts0-tazlv3-11p9g.jp.oshuawei.com
       tls: true
       type: http
-      username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-    - name: "\U0001F1EF\U0001F1F5JP_5 | ⬇️ 1.3MB/s"
-      password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+      username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+    - name: "\U0001F1EF\U0001F1F5JP_4 | ⬇️ 1.4MB/s"
+      password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
       port: 443
-      server: 7baf9ab3-t9zts0-tcmifz-1s3lb.jp.oshuawei.com
-      sni: 7baf9ab3-t9zts0-tcmifz-1s3lb.jp.oshuawei.com
+      server: 4c129820-t9zts0-ta00rd-1o8ak.jp.oshuawei.com
+      sni: 4c129820-t9zts0-ta00rd-1o8ak.jp.oshuawei.com
       tls: true
       type: http
-      username: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+      username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+    - name: "\U0001F1EF\U0001F1F5JP_5 | ⬇️ 1.6MB/s"
+      password: 40639730-e027-11ea-87ad-f23c913c8d2b
+      port: 443
+      server: 1916acbb-teq740-tja9mm-z93q.jp.oshuawei.com
+      sni: 1916acbb-teq740-tja9mm-z93q.jp.oshuawei.com
+      tls: true
+      type: http
+      username: 40639730-e027-11ea-87ad-f23c913c8d2b
     - name: "\U0001F1EF\U0001F1F5JP_6 | ⬇️ 1.3MB/s"
+      password: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
+      port: 443
+      server: 5c7228b4-t9zts0-tdadcv-1hd7v.jp.oshuawei.com
+      sni: 5c7228b4-t9zts0-tdadcv-1hd7v.jp.oshuawei.com
+      tls: true
+      type: http
+      username: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
+    - name: "\U0001F1EF\U0001F1F5JP_7 | ⬇️ 1.3MB/s"
+      password: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
+      port: 443
+      server: 57ff4081-ta1og0-tozbjw-1462e.jp.oshuawei.com
+      sni: 57ff4081-ta1og0-tozbjw-1462e.jp.oshuawei.com
+      tls: true
+      type: http
+      username: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
+    - name: "\U0001F1EF\U0001F1F5JP_8 | ⬇️ 1.2MB/s"
       password: c11ff50c-f582-11ee-94df-f23c9164ca5d
       port: 443
       server: c4c1f78e-t9zts0-tl09la-1q91p.jp.oshuawei.com
@@ -295,86 +302,15 @@ proxies:
       tls: true
       type: http
       username: c11ff50c-f582-11ee-94df-f23c9164ca5d
-    - name: "\U0001F1EF\U0001F1F5JP_7 | ⬇️ 1.2MB/s"
-      password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-      port: 443
-      server: 1f431eb3-temhs0-tvvhcz-tl32.jp.oshuawei.com
-      sni: 1f431eb3-temhs0-tvvhcz-tl32.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-    - name: "\U0001F1EF\U0001F1F5JP_8 | ⬇️ 1.1MB/s"
-      password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: ea4b51c1-te5ts0-tir0zk-1hpo0.jp.oshuawei.com
-      sni: ea4b51c1-te5ts0-tir0zk-1hpo0.jp.oshuawei.com
-      tls: true
-      type: http
-      username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
     - name: "\U0001F1EF\U0001F1F5JP_9 | ⬇️ 1.3MB/s"
-      password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+      password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
       port: 443
-      server: 180aafb4-t9zts0-tm23vf-1jk6u.jp.oshuawei.com
-      sni: 180aafb4-t9zts0-tm23vf-1jk6u.jp.oshuawei.com
+      server: 2f5c3ade-tegxs0-tighxj-12hj8.jp.oshuawei.com
+      sni: 2f5c3ade-tegxs0-tighxj-12hj8.jp.oshuawei.com
       tls: true
       type: http
-      username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-    - name: "\U0001F1EF\U0001F1F5JP_10 | ⬇️ 1.3MB/s"
-      password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
-      port: 443
-      server: fbd79892-t9zts0-tryjtz-12ach.jp.oshuawei.com
-      sni: fbd79892-t9zts0-tryjtz-12ach.jp.oshuawei.com
-      tls: true
-      type: http
-      username: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
-    - name: "\U0001F1EF\U0001F1F5JP_11 | ⬇️ 1.2MB/s"
-      password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-      port: 443
-      server: 67d05d58-t9zts0-tnkuks-wujn.jp.oshuawei.com
-      sni: 67d05d58-t9zts0-tnkuks-wujn.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-    - name: "\U0001F1EF\U0001F1F5JP_12 | ⬇️ 1.3MB/s"
-      password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-      port: 443
-      server: 8a61a75a-t9zts0-tgzvop-hns7.jp.oshuawei.com
-      sni: 8a61a75a-t9zts0-tgzvop-hns7.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-    - name: "\U0001F1EF\U0001F1F5JP_13 | ⬇️ 1.1MB/s"
-      password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-      port: 443
-      server: 0e457337-tegxs0-tes6jx-1o8ak.jp.oshuawei.com
-      sni: 0e457337-tegxs0-tes6jx-1o8ak.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-    - name: "\U0001F1EF\U0001F1F5JP_14 | ⬇️ 1.3MB/s"
-      password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-      port: 443
-      server: d21231c9-tegxs0-truoje-1uni.jp.oshuawei.com
-      tls: true
-      type: http
-      username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-    - name: "\U0001F1EF\U0001F1F5JP_15 | ⬇️ 1.2MB/s"
-      password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-      port: 443
-      server: 6be388f8-ta1og0-ta6lxc-jjv2.jp.oshuawei.com
-      sni: 6be388f8-ta1og0-ta6lxc-jjv2.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-    - name: "\U0001F1EF\U0001F1F5JP_16 | ⬇️ 1.1MB/s"
-      password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: c06023d0-t9zts0-tk5ls1-z7a1.jp.oshuawei.com
-      sni: c06023d0-t9zts0-tk5ls1-z7a1.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-    - name: "\U0001F1EF\U0001F1F5JP_17 | ⬇️ 1.2MB/s"
+      username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+    - name: "\U0001F1EF\U0001F1F5JP_10 | ⬇️ 1.4MB/s"
       password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
       port: 443
       server: b9c57dc1-t9zts0-tiuovf-v3c2.jp.oshuawei.com
@@ -382,87 +318,137 @@ proxies:
       tls: true
       type: http
       username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-    - name: "\U0001F1EF\U0001F1F5JP_18 | ⬇️ 1.2MB/s"
-      password: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b
-      port: 443
-      server: 330bc4a0-tdyf40-tijbf1-1nhp7.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b
-    - name: "\U0001F1EF\U0001F1F5JP_19 | ⬇️ 1.2MB/s"
-      password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-      port: 443
-      server: af84ae3a-t9zts0-tbicd9-1go3q.jp.oshuawei.com
-      sni: af84ae3a-t9zts0-tbicd9-1go3q.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-    - name: "\U0001F1EF\U0001F1F5JP_20 | ⬇️ 1.3MB/s"
-      password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-      port: 443
-      server: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
-      sni: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 2.4MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - alterId: "0"
+      cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 34.4MB/s"
+      network: tcp
+      port: 180
+      server: 82.198.246.37
+      skip-cert-verify: false
+      tls: false
+      type: vmess
       udp: true
-      username: test
-    - name: "\U0001F1EF\U0001F1F5JP_21 | ⬇️ 1.2MB/s"
-      password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+      xudp: true
+    - name: "\U0001F1EF\U0001F1F5JP_11 | ⬇️ 1.5MB/s"
+      password: 28213b50-7ed5-11ee-add6-f23c91369f2d
       port: 443
-      server: 09dc9ac8-t9zts0-to8xn3-l4nv.jp.oshuawei.com
-      sni: 09dc9ac8-t9zts0-to8xn3-l4nv.jp.oshuawei.com
+      server: 1dfbcec7-t9zts0-tqgocx-1plv4.jp.oshuawei.com
+      sni: 1dfbcec7-t9zts0-tqgocx-1plv4.jp.oshuawei.com
       tls: true
       type: http
-      username: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-    - name: "\U0001F1EF\U0001F1F5JP_22 | ⬇️ 1.1MB/s"
-      password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+      username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+    - name: "\U0001F1EF\U0001F1F5JP_12 | ⬇️ 1.0MB/s"
+      password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
       port: 443
-      server: e74ab57a-t9zts0-tnfe2z-1s4hc.jp.oshuawei.com
-      sni: e74ab57a-t9zts0-tnfe2z-1s4hc.jp.oshuawei.com
+      server: 56d1e939-t9zts0-tkka1f-1k25p.jp.oshuawei.com
+      sni: 56d1e939-t9zts0-tkka1f-1k25p.jp.oshuawei.com
       tls: true
       type: http
-      username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-    - name: "\U0001F1EF\U0001F1F5JP_23 | ⬇️ 1.8MB/s"
-      password: 0b869f32-657e-11ee-a90c-f23c9313b177
-      port: 3443
-      server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
-      sni: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
-      tls: true
-      type: http
-      username: 0b869f32-657e-11ee-a90c-f23c9313b177
-    - name: "\U0001F1F0\U0001F1F7KR_2 | ⬇️ 1.2MB/s"
-      password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-      port: 31433
-      server: 5b74285d-t9zts0-td1l1t-1s824.kr.oshuawei.com
-      sni: 5b74285d-t9zts0-td1l1t-1s824.kr.oshuawei.com
-      tls: true
-      type: http
-      username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-    - name: "\U0001F1EF\U0001F1F5JP_24 | ⬇️ 1.2MB/s"
-      password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
+      username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+    - name: "\U0001F1EF\U0001F1F5JP_13 | ⬇️ 1.1MB/s"
+      password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
       port: 443
-      server: 8046e0c8-tegxs0-tk5ls1-z7a1.jp.oshuawei.com
-      sni: 8046e0c8-tegxs0-tk5ls1-z7a1.jp.oshuawei.com
+      server: 13f4082b-tegxs0-thpx3l-141tv.jp.oshuawei.com
+      sni: 13f4082b-tegxs0-thpx3l-141tv.jp.oshuawei.com
       tls: true
       type: http
-      username: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-    - name: "\U0001F1EF\U0001F1F5JP_25 | ⬇️ 1.1MB/s"
-      password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
+      username: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+    - name: "\U0001F1EF\U0001F1F5JP_14 | ⬇️ 1.2MB/s"
+      password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
       port: 443
-      server: 66a384f9-t9zts0-tphxte-1h5u7.jp.oshuawei.com
-      sni: 66a384f9-t9zts0-tphxte-1h5u7.jp.oshuawei.com
+      server: 67d05d58-t9zts0-tnkuks-wujn.jp.oshuawei.com
+      sni: 67d05d58-t9zts0-tnkuks-wujn.jp.oshuawei.com
       tls: true
       type: http
-      username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-    - name: "\U0001F1EF\U0001F1F5JP_26 | ⬇️ 1.3MB/s"
+      username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+    - name: "\U0001F1EF\U0001F1F5JP_15 | ⬇️ 1.4MB/s"
+      password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+      port: 443
+      server: 1f431eb3-temhs0-tvvhcz-tl32.jp.oshuawei.com
+      sni: 1f431eb3-temhs0-tvvhcz-tl32.jp.oshuawei.com
+      tls: true
+      type: http
+      username: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+    - name: "\U0001F1EF\U0001F1F5JP_16 | ⬇️ 1.3MB/s"
+      password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+      port: 443
+      server: c90bef91-tegxs0-tqgocx-1plv4.jp.oshuawei.com
+      sni: c90bef91-tegxs0-tqgocx-1plv4.jp.oshuawei.com
+      tls: true
+      type: http
+      username: 28213b50-7ed5-11ee-add6-f23c91369f2d
+    - name: "\U0001F1EF\U0001F1F5JP_17 | ⬇️ 1.3MB/s"
+      password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+      port: 443
+      server: eed8df85-t9zts0-tvb36r-1qwom.jp.oshuawei.com
+      sni: eed8df85-t9zts0-tvb36r-1qwom.jp.oshuawei.com
+      tls: true
+      type: http
+      username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+    - name: "\U0001F1EF\U0001F1F5JP_18 | ⬇️ 1.4MB/s"
+      password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+      port: 443
+      server: dd781cfe-t9zts0-th1s9h-8rja.jp.oshuawei.com
+      sni: dd781cfe-t9zts0-th1s9h-8rja.jp.oshuawei.com
+      tls: true
+      type: http
+      username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+    - name: "\U0001F1EF\U0001F1F5JP_19 | ⬇️ 1.4MB/s"
+      password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+      port: 443
+      server: fe04ef5e-t9zts0-tcc9uq-1rnrp.jp.oshuawei.com
+      sni: fe04ef5e-t9zts0-tcc9uq-1rnrp.jp.oshuawei.com
+      tls: true
+      type: http
+      username: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 4.0MB/s"
+      network: tcp
+      port: 35535
+      reality-opts:
+        public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+      server: a.cflive.top
+      servername: www.speedtest.org
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 35939cbe-5d57-4413-f4d0-cc115db0e000
+      xudp: true
+    - name: "\U0001F1EF\U0001F1F5JP_20 | ⬇️ 1.6MB/s"
+      password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+      port: 443
+      server: e9870938-t9zts0-tamumc-1lkbs.jp.oshuawei.com
+      sni: e9870938-t9zts0-tamumc-1lkbs.jp.oshuawei.com
+      tls: true
+      type: http
+      username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+    - name: "\U0001F1ED\U0001F1F0HK_3 | ⬇️ 1.1MB/s"
+      password: <password>
+      port: 8443
+      server: b7d2d774-t9zts0-thpx3l-141tv.hkt.cdnhuawei.com
+      sni: b7d2d774-t9zts0-thpx3l-141tv.hkt.cdnhuawei.com
+      tls: true
+      type: http
+      username: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+    - client-fingerprint: chrome
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 1.5MB/s"
+      network: tcp
+      port: 443
+      server: sahanwickramasinghevip.shop
+      tls: true
+      type: vless
+      udp: true
+      uuid: 55d61055-1a7f-4bc5-aca2-4ee78c738b60
+      xudp: true
+    - name: "\U0001F1EF\U0001F1F5JP_21 | ⬇️ 1.4MB/s"
       password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
       port: 443
       server: 1d0ee658-ta1og0-tsdg75-tlhh.jp.oshuawei.com
@@ -470,7 +456,15 @@ proxies:
       tls: true
       type: http
       username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-    - name: "\U0001F1EF\U0001F1F5JP_27 | ⬇️ 1.3MB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_22 | ⬇️ 1.7MB/s"
+      password: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+      port: 443
+      server: da296b87-t9zts0-thd0h1-1rz5s.jp.oshuawei.com
+      sni: da296b87-t9zts0-thd0h1-1rz5s.jp.oshuawei.com
+      tls: true
+      type: http
+      username: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+    - name: "\U0001F1EF\U0001F1F5JP_23 | ⬇️ 1.4MB/s"
       password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
       port: 443
       server: 5979546a-t9zts0-ta5nd4-e06r.jp.oshuawei.com
@@ -478,43 +472,45 @@ proxies:
       tls: true
       type: http
       username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+    - name: "\U0001F1EF\U0001F1F5JP_24 | ⬇️ 1.7MB/s"
+      password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+      port: 443
+      server: fd9ad93a-t9zts0-tei4of-1qxa1.jp.oshuawei.com
+      sni: fd9ad93a-t9zts0-tei4of-1qxa1.jp.oshuawei.com
+      tls: true
+      type: http
+      username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+    - name: "\U0001F1EF\U0001F1F5JP_25 | ⬇️ 1.0MB/s"
+      password: de003c72-0157-11ef-86da-f23c91cfbbc9
+      port: 443
+      server: ee1b4ea0-t9zts0-tm3dx0-1r9dt.jp.oshuawei.com
+      sni: ee1b4ea0-t9zts0-tm3dx0-1r9dt.jp.oshuawei.com
+      tls: true
+      type: http
+      username: de003c72-0157-11ef-86da-f23c91cfbbc9
     - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 13.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 3.8MB/s"
       password: dongtaiwang.com
       port: 28866
       server: 45.221.98.11
       transport: TCP
       type: mieru
       username: dongtaiwang.com
-    - name: "\U0001F1EF\U0001F1F5JP_28 | ⬇️ 1.1MB/s"
-      password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+    - cipher: aes-256-cfb
+      name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 3.3MB/s"
+      password: amazonskr05
       port: 443
-      server: b8c47f5c-tegxs0-trhks8-1c9em.jp.oshuawei.com
-      sni: b8c47f5c-tegxs0-trhks8-1c9em.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-    - name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.1MB/s"
-      password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-      port: 8443
-      server: f725445c-te24g0-twuk0i-1hzyr.sj.oshuawei.com
+      server: 3.79.104.163
+      skip-cert-verify: false
+      type: ss
+      udp: false
+    - client-fingerprint: chrome
+      name: "\U0001F1EE\U0001F1EAIE_1 | ⬇️ 6.2MB/s"
+      network: tcp
+      password: t1k169n5zmvvwn96r9ft
+      port: 57452
+      server: 146.70.90.197
       skip-cert-verify: true
-      sni: f725445c-te24g0-twuk0i-1hzyr.sj.oshuawei.com
-      type: anytls
+      sni: www.vk.com
+      type: trojan
       udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_29 | ⬇️ 1.1MB/s"
-      password: c357a728-1211-11f0-9a65-f23c9164ca5d
-      port: 443
-      server: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
-      sni: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
-      tls: true
-      type: http
-      username: c357a728-1211-11f0-9a65-f23c9164ca5d
-    - name: "\U0001F1F0\U0001F1F7KR_3 | ⬇️ 1.1MB/s"
-      password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-      port: 31433
-      server: 14665445-t9zts0-tq9o8d-1d3bw.kr.oshuawei.com
-      sni: 14665445-t9zts0-tq9o8d-1d3bw.kr.oshuawei.com
-      tls: true
-      type: http
-      username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
