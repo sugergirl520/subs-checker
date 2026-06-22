@@ -1,159 +1,19 @@
 proxies:
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 649
-      name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 5.2MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 63.185.169.158
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - delay: 1395
-      name: "\U0001F1F7\U0001F1F4RO_1 | ⬇️ 4.9MB/s"
-      port: 9002
-      server: 84.239.14.160
-      skip-cert-verify: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 6.1MB/s"
+      port: 9443
+      reality-opts:
+        public-key: ge0f9vA5DqMbVVJZVXqssr_qDrKVz7GEIvngsdedIj4
+        short-id: 879f01a4ae1d324e
+      server: 82.21.92.47
+      servername: usanode.dostupnet.ru
+      skip-cert-verify: false
       tls: true
-      type: http
+      type: vless
       udp: true
-    - delay: 1304
-      name: "\U0001F1F7\U0001F1F4RO_2 | ⬇️ 4.9MB/s"
-      port: 9002
-      server: 84.239.49.240
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 2939
-      name: "\U0001F1F7\U0001F1F4RO_3 | ⬇️ 4.7MB/s"
-      port: 9002
-      server: 84.239.49.247
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 2429
-      name: "\U0001F1F7\U0001F1F4RO_4 | ⬇️ 4.7MB/s"
-      port: 9002
-      server: 84.239.49.185
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 2535
-      name: "\U0001F1F7\U0001F1F4RO_5 | ⬇️ 4.7MB/s"
-      port: 9002
-      server: 84.239.49.182
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 2021
-      name: "\U0001F1F7\U0001F1F4RO_6 | ⬇️ 4.5MB/s"
-      port: 9002
-      server: 84.239.14.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 1310
-      name: "\U0001F1F7\U0001F1F4RO_7 | ⬇️ 4.5MB/s"
-      port: 9002
-      server: 84.239.49.162
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 1240
-      name: "\U0001F1F7\U0001F1F4RO_8 | ⬇️ 4.5MB/s"
-      port: 9002
-      server: 84.239.49.233
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 2306
-      name: "\U0001F1F7\U0001F1F4RO_9 | ⬇️ 4.4MB/s"
-      port: 9002
-      server: 84.239.49.238
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 2372
-      name: "\U0001F1F7\U0001F1F4RO_10 | ⬇️ 4.4MB/s"
-      port: 9002
-      server: 84.239.49.187
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 2388
-      name: "\U0001F1F7\U0001F1F4RO_11 | ⬇️ 4.4MB/s"
-      port: 9002
-      server: 84.239.49.199
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 1823
-      name: "\U0001F1F7\U0001F1F4RO_12 | ⬇️ 4.4MB/s"
-      port: 9002
-      server: 84.239.49.196
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 2515
-      name: "\U0001F1F7\U0001F1F4RO_13 | ⬇️ 4.3MB/s"
-      port: 9002
-      server: 84.239.49.235
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 1309
-      name: "\U0001F1F7\U0001F1F4RO_14 | ⬇️ 4.2MB/s"
-      port: 9002
-      server: 84.239.49.170
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 2064
-      name: "\U0001F1F7\U0001F1F4RO_15 | ⬇️ 4.2MB/s"
-      port: 9002
-      server: 84.239.49.163
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 1449
-      name: "\U0001F1F7\U0001F1F4RO_16 | ⬇️ 4.1MB/s"
-      port: 9002
-      server: 84.239.49.204
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 1237
-      name: "\U0001F1F7\U0001F1F4RO_17 | ⬇️ 4.2MB/s"
-      port: 9002
-      server: 84.239.49.202
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 1654
-      name: "\U0001F1F7\U0001F1F4RO_18 | ⬇️ 2.3MB/s"
-      port: 9002
-      server: 84.239.49.212
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 9.4MB/s"
+      uuid: ebcb836a-ab7a-424f-a07c-aba25c70da69
+    - name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 9.4MB/s"
       network: ws
       port: 80
       server: 151.101.109.223
@@ -167,16 +27,7 @@ proxies:
         headers:
             Host: max-gb1.global.ssl.fastly.net
         path: /
-    - name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 6.4MB/s"
-      port: 8443
-      server: 152.233.28.199
-      servername: ams1.fromblancwithlove.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1EC\U0001F1E7GB_2 | ⬇️ 6.0MB/s"
+    - name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 8.1MB/s"
       port: 8443
       server: 152.233.28.202
       servername: ams1.fromblancwithlove.com
@@ -185,26 +36,39 @@ proxies:
       type: vless
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1EC\U0001F1E7GB_3 | ⬇️ 6.0MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_2 | ⬇️ 7.9MB/s"
       port: 8443
-      server: 152.233.28.200
+      server: 152.233.28.201
+      servername: ams1.fromblancwithlove.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 7.9MB/s"
+      port: 8443
+      server: 185.229.191.12
+      servername: ams1.fromblancwithlove.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 8.1MB/s"
+      port: 8443
+      server: 185.229.191.13
       servername: ams1.fromblancwithlove.com
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - delay: 1112
-      name: "\U0001F1F7\U0001F1F4RO_19 | ⬇️ 4.1MB/s"
-      port: 9002
-      server: 84.239.49.184
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 6.8MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 7.7MB/s"
       port: 8443
       reality-opts:
         public-key: -FQM2tUbpiBjwjgla2mwkSkFhFIKQU0FQOvRi0ZD_mY
@@ -216,7 +80,7 @@ proxies:
       type: vless
       udp: true
       uuid: cf038a28-8f85-41fc-9e86-ba99a3fdd0d9
-    - name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 7.1MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 7.9MB/s"
       port: 8443
       server: 185.229.191.157
       servername: ams1.fromblancwithlove.com
@@ -227,7 +91,7 @@ proxies:
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT_1 | ⬇️ 4.8MB/s"
+      name: "\U0001F1E6\U0001F1F9AT_1 | ⬇️ 4.7MB/s"
       port: 443
       reality-opts:
         public-key: LaGTRJ1CJnnYV7FnyqQnU28I0xFTPFKI8xmUFwig5ic
@@ -239,21 +103,28 @@ proxies:
       type: vless
       udp: true
       uuid: bcc094e4-1a85-8a25-f8e1-5b08b9af841c
-    - name: "\U0001F1F7\U0001F1F4RO_20 | ⬇️ 3.8MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_1 | ⬇️ 4.8MB/s"
       port: 9002
-      server: 84.239.49.154
+      server: 84.239.49.199
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_21 | ⬇️ 5.1MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_2 | ⬇️ 4.9MB/s"
       port: 9002
-      server: 84.239.49.223
+      server: 84.239.49.253
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1EC\U0001F1E7GB_4 | ⬇️ 1.9MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_3 | ⬇️ 3.6MB/s"
+      port: 9002
+      server: 84.239.49.214
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7GB_3 | ⬇️ 2.5MB/s"
       password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
       port: 443
       server: 802344f1-ta1og0-tgzvop-hns7.uk.oshuawei.com
@@ -261,26 +132,14 @@ proxies:
       type: http
       udp: true
       username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-    - name: "\U0001F1F7\U0001F1F4RO_22 | ⬇️ 4.4MB/s"
-      port: 8443
-      server: 95.173.199.86
-      servername: ams1.fromblancwithlove.com
-      skip-cert-verify: false
+    - name: "\U0001F1F7\U0001F1F4RO_4 | ⬇️ 2.6MB/s"
+      port: 9002
+      server: 84.239.49.154
+      skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
       udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - client-fingerprint: chrome
-      name: "\U0001F1F7\U0001F1F4RO_23 | ⬇️ 4.6MB/s"
-      port: 8443
-      server: 95.173.199.106
-      servername: ams1.fromblancwithlove.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1F7\U0001F1F4RO_24 | ⬇️ 4.1MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_5 | ⬇️ 4.7MB/s"
       port: 8443
       server: 95.173.199.104
       servername: ams1.fromblancwithlove.com
@@ -289,28 +148,51 @@ proxies:
       type: vless
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1F7\U0001F1F4RO_25 | ⬇️ 4.8MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_6 | ⬇️ 4.8MB/s"
+      port: 8443
+      server: 95.173.199.86
+      servername: ams1.fromblancwithlove.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    - name: "\U0001F1F7\U0001F1F4RO_7 | ⬇️ 2.6MB/s"
+      port: 9002
+      server: 84.239.49.223
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_8 | ⬇️ 2.5MB/s"
       port: 9002
       server: 84.239.49.156
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_26 | ⬇️ 3.6MB/s"
-      port: 9002
-      server: 84.239.49.253
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_27 | ⬇️ 4.6MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_9 | ⬇️ 4.9MB/s"
       port: 9002
       server: 84.239.14.157
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_28 | ⬇️ 5.4MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_10 | ⬇️ 5.3MB/s"
+      port: 9002
+      server: 84.239.49.233
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_11 | ⬇️ 6.4MB/s"
+      port: 9002
+      server: 84.239.49.57
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_12 | ⬇️ 5.6MB/s"
       port: 8443
       server: 95.173.199.116
       servername: ams1.fromblancwithlove.com
@@ -319,53 +201,92 @@ proxies:
       type: vless
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1F7\U0001F1F4RO_29 | ⬇️ 4.4MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_13 | ⬇️ 4.0MB/s"
       port: 9002
       server: 84.239.14.159
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_30 | ⬇️ 4.6MB/s"
-      port: 9002
-      server: 84.239.49.57
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_31 | ⬇️ 4.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_14 | ⬇️ 5.1MB/s"
       port: 9002
       server: 84.239.49.215
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F7\U0001F1F4RO_32 | ⬇️ 4.8MB/s"
-      port: 8443
-      server: 95.173.199.69
-      servername: ams1.fromblancwithlove.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1F7\U0001F1F4RO_33 | ⬇️ 4.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_15 | ⬇️ 4.8MB/s"
       port: 9002
       server: 84.239.49.211
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_34 | ⬇️ 4.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_16 | ⬇️ 4.9MB/s"
+      port: 9002
+      server: 84.239.49.240
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_17 | ⬇️ 5.2MB/s"
       port: 9002
       server: 84.239.49.38
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_18 | ⬇️ 5.2MB/s"
+      port: 9002
+      server: 84.239.49.239
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_19 | ⬇️ 4.8MB/s"
+      port: 9002
+      server: 84.239.49.185
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_20 | ⬇️ 5.1MB/s"
+      port: 9002
+      server: 84.239.49.234
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_21 | ⬇️ 4.8MB/s"
+      port: 9002
+      server: 84.239.49.183
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_22 | ⬇️ 4.8MB/s"
+      port: 9002
+      server: 84.239.49.178
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_23 | ⬇️ 5.4MB/s"
+      port: 9002
+      server: 84.239.49.55
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_24 | ⬇️ 4.8MB/s"
+      port: 9002
+      server: 84.239.49.39
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1F7\U0001F1F4RO_35 | ⬇️ 4.6MB/s"
+      name: "\U0001F1F7\U0001F1F4RO_25 | ⬇️ 6.2MB/s"
       port: 8443
       server: 95.173.199.87
       servername: ams1.fromblancwithlove.com
@@ -374,190 +295,213 @@ proxies:
       type: vless
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1F7\U0001F1F4RO_36 | ⬇️ 4.8MB/s"
-      port: 9002
-      server: 84.239.49.39
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_37 | ⬇️ 4.7MB/s"
-      port: 9002
-      server: 84.239.49.55
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_38 | ⬇️ 4.5MB/s"
-      port: 9002
-      server: 84.239.49.234
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_39 | ⬇️ 4.0MB/s"
-      port: 9002
-      server: 84.239.49.173
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_40 | ⬇️ 4.6MB/s"
-      port: 9002
-      server: 84.239.49.178
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_41 | ⬇️ 3.4MB/s"
-      port: 9002
-      server: 84.239.49.201
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_42 | ⬇️ 4.4MB/s"
-      port: 9002
-      server: 84.239.49.42
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_43 | ⬇️ 4.4MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_26 | ⬇️ 4.7MB/s"
       port: 9002
       server: 84.239.49.180
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_44 | ⬇️ 4.0MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_27 | ⬇️ 6.3MB/s"
       port: 9002
-      server: 84.239.49.227
+      server: 84.239.49.42
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_45 | ⬇️ 3.8MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_28 | ⬇️ 2.7MB/s"
       port: 9002
-      server: 84.239.49.176
+      server: 84.239.49.162
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_46 | ⬇️ 2.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_29 | ⬇️ 2.3MB/s"
       port: 9002
-      server: 84.239.49.183
+      server: 84.239.49.173
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_47 | ⬇️ 4.0MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_30 | ⬇️ 4.8MB/s"
       port: 9002
-      server: 84.239.49.254
+      server: 84.239.49.204
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_48 | ⬇️ 2.8MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_31 | ⬇️ 1.4MB/s"
       port: 9002
-      server: 84.239.49.171
+      server: 84.239.49.201
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_49 | ⬇️ 4.0MB/s"
-      port: 9002
-      server: 84.239.49.161
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_50 | ⬇️ 1.4MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_32 | ⬇️ 2.5MB/s"
       port: 9002
       server: 84.239.49.155
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_51 | ⬇️ 4.8MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_33 | ⬇️ 4.6MB/s"
+      port: 9002
+      server: 84.239.49.176
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_34 | ⬇️ 6.1MB/s"
+      port: 9002
+      server: 84.239.49.254
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_35 | ⬇️ 5.8MB/s"
+      port: 9002
+      server: 84.239.49.227
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_36 | ⬇️ 4.9MB/s"
+      port: 9002
+      server: 84.239.49.247
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_37 | ⬇️ 5.0MB/s"
       port: 9002
       server: 84.239.49.224
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_52 | ⬇️ 4.4MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_38 | ⬇️ 4.9MB/s"
       port: 9002
       server: 84.239.49.209
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_53 | ⬇️ 4.7MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_39 | ⬇️ 2.5MB/s"
       port: 9002
-      server: 84.239.49.207
+      server: 84.239.49.184
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_54 | ⬇️ 4.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_40 | ⬇️ 4.9MB/s"
       port: 9002
-      server: 84.239.49.225
+      server: 84.239.49.198
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_55 | ⬇️ 4.6MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_41 | ⬇️ 3.2MB/s"
+      port: 9002
+      server: 84.239.49.171
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_42 | ⬇️ 2.4MB/s"
+      port: 9002
+      server: 84.239.49.161
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_43 | ⬇️ 4.8MB/s"
+      port: 9002
+      server: 84.239.49.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_44 | ⬇️ 4.8MB/s"
       port: 9002
       server: 84.239.49.249
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_56 | ⬇️ 4.5MB/s"
-      port: 9002
-      server: 84.239.49.157
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_57 | ⬇️ 4.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_45 | ⬇️ 5.9MB/s"
       port: 9002
       server: 84.239.49.245
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_58 | ⬇️ 4.5MB/s"
-      port: 9002
-      server: 84.239.49.191
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_59 | ⬇️ 4.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_46 | ⬇️ 4.6MB/s"
       port: 9002
       server: 84.239.14.154
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_60 | ⬇️ 3.8MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_47 | ⬇️ 3.1MB/s"
       port: 9002
-      server: 84.239.14.149
+      server: 84.239.49.157
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_61 | ⬇️ 3.9MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_48 | ⬇️ 4.7MB/s"
       port: 9002
       server: 84.239.49.219
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_49 | ⬇️ 4.6MB/s"
+      port: 9002
+      server: 84.239.49.231
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_50 | ⬇️ 4.5MB/s"
+      port: 9002
+      server: 84.239.49.163
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_51 | ⬇️ 3.5MB/s"
+      port: 9002
+      server: 84.239.14.149
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_52 | ⬇️ 4.7MB/s"
+      port: 9002
+      server: 84.239.49.159
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_53 | ⬇️ 1.4MB/s"
+      port: 9002
+      server: 84.239.49.225
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 5.4MB/s"
+      port: 8443
+      server: 45.159.12.15
+      servername: ams1.fromblancwithlove.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 5.6MB/s"
+      name: "\U0001F1F8\U0001F1EASE_2 | ⬇️ 5.2MB/s"
       port: 8443
       server: 79.127.249.221
       servername: ams1.fromblancwithlove.com
@@ -566,21 +510,35 @@ proxies:
       type: vless
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1F7\U0001F1F4RO_62 | ⬇️ 4.4MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_54 | ⬇️ 5.0MB/s"
       port: 9002
-      server: 84.239.49.231
+      server: 84.239.49.40
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_63 | ⬇️ 4.4MB/s"
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_4 | ⬇️ 6.5MB/s"
+      port: 8443
+      reality-opts:
+        public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
+        short-id: ea10cd5686751ec5
+      server: 45.206.0.35
+      servername: storage.yandex.net
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 52faee73-e0fe-4661-992d-67259257170f
+    - name: "\U0001F1F7\U0001F1F4RO_55 | ⬇️ 1.7MB/s"
       port: 9002
-      server: 84.239.49.159
+      server: 84.239.49.207
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 8.1MB/s"
+    - name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 14.6MB/s"
       network: ws
       port: 80
       server: 199.232.197.131
@@ -594,22 +552,8 @@ proxies:
         headers:
             Host: max-gb1.global.ssl.fastly.net
         path: /
-    - name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 10.5MB/s"
-      network: ws
-      port: 80
-      server: 151.101.2.219
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
     - client-fingerprint: chrome
-      name: "\U0001F1F9\U0001F1F7TR_1 | ⬇️ 4.6MB/s"
+      name: "\U0001F1F9\U0001F1F7TR_1 | ⬇️ 6.2MB/s"
       port: 8443
       server: 87.249.139.233
       servername: ams1.fromblancwithlove.com
@@ -618,22 +562,8 @@ proxies:
       type: vless
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1E9\U0001F1EADE_5 | ⬇️ 9.7MB/s"
-      network: ws
-      port: 80
-      server: 151.101.194.219
-      servername: max-gb1.global.ssl.fastly.net
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: /
     - client-fingerprint: chrome
-      name: "\U0001F1F9\U0001F1F7TR_2 | ⬇️ 4.5MB/s"
+      name: "\U0001F1F9\U0001F1F7TR_2 | ⬇️ 4.2MB/s"
       port: 8443
       server: 87.249.139.247
       servername: ams1.fromblancwithlove.com
@@ -642,7 +572,21 @@ proxies:
       type: vless
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1E9\U0001F1EADE_6 | ⬇️ 14.0MB/s"
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_5 | ⬇️ 3.8MB/s"
+      port: 8443
+      reality-opts:
+        public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
+        short-id: ea10cd5686751ec5
+      server: 45.206.0.34
+      servername: storage.yandex.net
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 52faee73-e0fe-4661-992d-67259257170f
+    - name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 11.0MB/s"
       network: ws
       port: 80
       server: 151.101.0.1
@@ -656,10 +600,10 @@ proxies:
         headers:
             Host: max-gb1.global.ssl.fastly.net
         path: /
-    - name: "\U0001F1E9\U0001F1EADE_7 | ⬇️ 13.4MB/s"
+    - name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 10.8MB/s"
       network: ws
       port: 80
-      server: 167.82.0.1
+      server: 151.101.2.219
       servername: max-gb1.global.ssl.fastly.net
       skip-cert-verify: false
       tls: false
@@ -670,17 +614,7 @@ proxies:
         headers:
             Host: max-gb1.global.ssl.fastly.net
         path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1E6UA_1 | ⬇️ 4.4MB/s"
-      port: 8443
-      server: 143.244.45.50
-      servername: ams1.fromblancwithlove.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - name: "\U0001F1E9\U0001F1EADE_8 | ⬇️ 9.0MB/s"
+    - name: "\U0001F1E9\U0001F1EADE_5 | ⬇️ 11.0MB/s"
       network: ws
       port: 80
       server: speedtest.net
@@ -694,8 +628,36 @@ proxies:
         headers:
             Host: max-gb1.global.ssl.fastly.net
         path: /
+    - name: "\U0001F1E9\U0001F1EADE_6 | ⬇️ 11.0MB/s"
+      network: ws
+      port: 80
+      server: 167.82.0.1
+      servername: max-gb1.global.ssl.fastly.net
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+      ws-opts:
+        headers:
+            Host: max-gb1.global.ssl.fastly.net
+        path: /
+    - name: "\U0001F1E9\U0001F1EADE_7 | ⬇️ 10.3MB/s"
+      network: ws
+      port: 80
+      server: 151.101.194.219
+      servername: max-gb1.global.ssl.fastly.net
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+      ws-opts:
+        headers:
+            Host: max-gb1.global.ssl.fastly.net
+        path: /
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1E6UA_2 | ⬇️ 4.8MB/s"
+      name: "\U0001F1FA\U0001F1E6UA_1 | ⬇️ 5.8MB/s"
       port: 8443
       server: 143.244.45.55
       servername: ams1.fromblancwithlove.com
@@ -704,43 +666,31 @@ proxies:
       type: vless
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_5 | ⬇️ 2.7MB/s"
-      port: 8443
-      reality-opts:
-        public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
-        short-id: ea10cd5686751ec5
-      server: 45.206.0.35
-      servername: storage.yandex.net
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 52faee73-e0fe-4661-992d-67259257170f
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_6 | ⬇️ 2.8MB/s"
+      name: "\U0001F1FA\U0001F1E6UA_2 | ⬇️ 5.4MB/s"
       port: 8443
-      reality-opts:
-        public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
-        short-id: ea10cd5686751ec5
-      server: 45.206.0.34
-      servername: storage.yandex.net
+      server: 143.244.45.50
+      servername: ams1.fromblancwithlove.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 52faee73-e0fe-4661-992d-67259257170f
-    - name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 1.7MB/s"
-      password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-      port: 443
-      server: 7a106425-t9zts0-tgzvop-hns7.sj.oshuawei.com
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    - name: "\U0001F1F7\U0001F1F4RO_56 | ⬇️ 2.0MB/s"
+      port: 9002
+      server: 84.239.49.175
+      skip-cert-verify: true
       tls: true
       type: http
       udp: true
-      username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-    - name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 1.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_57 | ⬇️ 1.6MB/s"
+      port: 9002
+      server: 84.239.14.160
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 2.9MB/s"
       password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
       port: 443
       server: a86296f0-ta1og0-tgzvop-hns7.sj.oshuawei.com
@@ -748,32 +698,60 @@ proxies:
       type: http
       udp: true
       username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 31.3MB/s"
-      network: tcp
-      port: 35535
-      reality-opts:
-        public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
-      server: a.cflive.top
-      servername: www.speedtest.org
-      skip-cert-verify: false
+    - delay: 2372
+      name: "\U0001F1F7\U0001F1F4RO_58 | ⬇️ 5.8MB/s"
+      port: 9002
+      server: 84.239.49.187
+      skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
       udp: true
-      uuid: 35939cbe-5d57-4413-f4d0-cc115db0e000
-      xudp: true
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 16.4MB/s"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
+    - delay: 2021
+      name: "\U0001F1F7\U0001F1F4RO_59 | ⬇️ 4.0MB/s"
+      port: 9002
+      server: 84.239.14.148
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 1.7MB/s"
+      password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+      port: 443
+      server: 7a106425-t9zts0-tgzvop-hns7.sj.oshuawei.com
+      tls: true
+      type: http
+      udp: true
+      username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+    - delay: 1237
+      name: "\U0001F1F7\U0001F1F4RO_60 | ⬇️ 4.5MB/s"
+      port: 9002
+      server: 84.239.49.202
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 1.2MB/s"
+      password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+      port: 443
+      server: 8b8d8416-tegxs0-tgzvop-hns7.sj.hyhuawei.com
+      tls: true
+      type: http
+      udp: true
+      username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.6MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: vpn-sg-001.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-sg-001.fastervpn.world
+      type: hysteria2
+      up: ""
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_9 | ⬇️ 8.8MB/s"
+      name: "\U0001F1E9\U0001F1EADE_8 | ⬇️ 13.1MB/s"
       network: ws
       port: 80
       server: 151.101.194.219
@@ -787,7 +765,7 @@ proxies:
         path: /
       xudp: true
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_10 | ⬇️ 9.6MB/s"
+      name: "\U0001F1E9\U0001F1EADE_9 | ⬇️ 15.5MB/s"
       network: ws
       port: 80
       server: 167.82.0.1
@@ -800,27 +778,46 @@ proxies:
             User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /
       xudp: true
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision-udp443
-      name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 5.3MB/s"
-      network: tcp
-      port: 22231
-      security: tls
-      server: 72.56.59.223
-      servername: r1.mizulina.top
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    - multiplexing: MULTIPLEXING_LOW
+      name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 14.9MB/s"
+      password: dongtaiwang.com
+      port: 34567
+      server: 157.254.223.44
+      transport: TCP
+      type: mieru
+      username: dongtaiwang.com
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 6.3MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 1.8MB/s"
+      network: tcp
+      port: 5454
+      reality-opts:
+        public-key: 7Mb18pl7fH3NvhVevIVTgRdPlAorUucOWMlUaTrDV0o
+        short-id: 4265cc8365
+      server: 1.sdwan.realm-sync.com
+      servername: swcdn.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F9\U0001F1F7TR_3 | ⬇️ 6.4MB/s"
+      network: tcp
+      port: 8443
+      server: 87.249.139.235
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 6.6MB/s"
       network: raw
       port: 41087
       reality-opts:
@@ -833,18 +830,12 @@ proxies:
       udp: true
       uuid: 57d94cf7-ca36-4c2a-bec5-90cf38588cda
       xudp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1 | ⬇️ 1.7MB/s"
-      password: ""
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-      username: Og%3D%3D
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F9\U0001F1F7TR_3 | ⬇️ 4.4MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 8.0MB/s"
       network: tcp
       port: 8443
-      server: 87.249.139.235
+      server: 185.229.191.46
       servername: ams1.fromblancwithlove.com
       tls: true
       type: vless
@@ -852,7 +843,7 @@ proxies:
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
       xudp: true
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_11 | ⬇️ 10.7MB/s"
+      name: "\U0001F1E9\U0001F1EADE_10 | ⬇️ 11.9MB/s"
       network: ws
       port: 80
       server: 151.101.0.1
@@ -865,47 +856,7 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
         path: /
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 5.3MB/s"
-      network: tcp
-      port: 8443
-      server: 185.229.191.46
-      servername: ams1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 2.0MB/s"
-      network: raw
-      port: 23951
-      reality-opts:
-        public-key: FGnWfD70nPQhiMZUQETB_mKaR-J_2DonpOpy9eqQ_F0
-        short-id: 8c4907b7884b31
-      server: 54.253.37.164
-      servername: www.tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e62a6f1-f8cb-40eb-9c33-fc4ed39a080e
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 7.0MB/s"
-      network: tcp
-      port: 8443
-      server: 185.229.191.42
-      servername: ams1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_12 | ⬇️ 15.2MB/s"
+    - name: "\U0001F1E9\U0001F1EADE_11 | ⬇️ 15.9MB/s"
       network: ws
       port: 80
       server: 151.101.2.219
@@ -918,10 +869,26 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
         path: /
       xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1FAAU_1 | ⬇️ 2.8MB/s"
+      network: raw
+      port: 23951
+      reality-opts:
+        public-key: FGnWfD70nPQhiMZUQETB_mKaR-J_2DonpOpy9eqQ_F0
+        short-id: 8c4907b7884b31
+      server: 54.253.37.164
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e62a6f1-f8cb-40eb-9c33-fc4ed39a080e
+      xudp: true
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_7 | ⬇️ 3.1MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_6 | ⬇️ 4.6MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -934,17 +901,21 @@ proxies:
       udp: true
       uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 4.7MB/s"
-      password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-      port: 443
-      server: 7de3857f-ta1og0-tgzvop-hns7.sjc.oshuawei.com
-      sni: 7de3857f-ta1og0-tgzvop-hns7.sjc.oshuawei.com
-      tls: true
-      type: http
-      username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_6 | ⬇️ 5.0MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_6 | ⬇️ 6.1MB/s"
+      network: tcp
+      port: 8443
+      server: 185.229.191.42
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_7 | ⬇️ 6.9MB/s"
       network: tcp
       port: 8443
       server: 185.229.191.67
@@ -956,55 +927,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_7 | ⬇️ 5.0MB/s"
-      network: tcp
-      port: 8443
-      server: 185.229.191.180
-      servername: ams1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F7\U0001F1F4RO_64 | ⬇️ 4.8MB/s"
-      network: tcp
-      port: 8443
-      server: 95.173.199.98
-      servername: ams1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F9\U0001F1F7TR_4 | ⬇️ 4.7MB/s"
-      network: tcp
-      port: 8443
-      server: 87.249.139.237
-      servername: ams1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F9\U0001F1F7TR_5 | ⬇️ 4.6MB/s"
-      network: tcp
-      port: 8443
-      server: 169.150.215.80
-      servername: ams1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_8 | ⬇️ 1.5MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_8 | ⬇️ 4.9MB/s"
       network: tcp
       port: 8443
       server: 79.127.227.57
@@ -1016,59 +939,8 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F7\U0001F1F4RO_65 | ⬇️ 4.4MB/s"
-      network: tcp
-      port: 8443
-      server: 95.173.199.85
-      servername: ams1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - name: "\U0001F1F7\U0001F1F4RO_66 | ⬇️ 4.1MB/s"
-      port: 9002
-      server: 193.176.84.37
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_9 | ⬇️ 6.7MB/s"
-      network: tcp
-      port: 8443
-      server: 185.229.191.68
-      servername: ams1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F7\U0001F1F4RO_67 | ⬇️ 4.8MB/s"
-      network: tcp
-      port: 8443
-      server: 95.173.199.99
-      servername: ams1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - name: "\U0001F1F1\U0001F1FBLV_1 | ⬇️ 1.5MB/s"
-      network: tcp
-      port: 25752
-      server: 217.28.48.29
-      type: vless
-      udp: true
-      uuid: 27f2ae85-3e15-4a9a-9c71-49ee032e7b26
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 1.8MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 7.3MB/s"
       network: raw
       port: 44520
       reality-opts:
@@ -1081,8 +953,159 @@ proxies:
       udp: true
       uuid: acd726d3-0128-44d8-a575-21013ff7740a
       xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 1.2MB/s"
+      network: tcp
+      port: 35535
+      reality-opts:
+        public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+      server: a.cflive.top
+      servername: www.speedtest.org
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 35939cbe-5d57-4413-f4d0-cc115db0e000
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_9 | ⬇️ 8.1MB/s"
+      network: tcp
+      port: 8443
+      server: 185.229.191.180
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1FAHU_1 | ⬇️ 3.3MB/s"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+        short-id: 2715592069f36fe7
+      server: grinoree.ru
+      servername: storage.yandex.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_10 | ⬇️ 8.4MB/s"
+      network: tcp
+      port: 8443
+      server: 185.229.191.93
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F7\U0001F1F4RO_61 | ⬇️ 6.4MB/s"
+      network: tcp
+      port: 8443
+      server: 95.173.199.98
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F1\U0001F1FBLV_1 | ⬇️ 6.9MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        short-id: 6ba85179e30d4fc2
+      server: lv.faygo.bot
+      servername: enterprisekitten.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F9\U0001F1F7TR_4 | ⬇️ 4.8MB/s"
+      network: tcp
+      port: 8443
+      server: 87.249.139.236
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F9\U0001F1F7TR_5 | ⬇️ 4.7MB/s"
+      network: tcp
+      port: 8443
+      server: 169.150.215.80
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - client-fingerprint: edge
+      encryption: none
+      flow: xtls-rprx-vision-udp443
+      name: "\U0001F1F3\U0001F1F1NL_11 | ⬇️ 3.2MB/s"
+      network: tcp
+      port: 443
+      server: 104.43.91.69
+      servername: r1.mizulina.top
+      tls: true
+      type: vless
+      udp: true
+      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_12 | ⬇️ 6.0MB/s"
+      network: tcp
+      port: 8443
+      server: 185.229.191.68
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - name: "\U0001F1F7\U0001F1F4RO_62 | ⬇️ 5.0MB/s"
+      port: 9002
+      server: 193.176.84.37
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F7\U0001F1F4RO_63 | ⬇️ 4.7MB/s"
+      network: tcp
+      port: 8443
+      server: 95.173.199.83
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_13 | ⬇️ 8.6MB/s"
+      name: "\U0001F1E9\U0001F1EADE_12 | ⬇️ 11.6MB/s"
       network: ws
       port: 80
       server: 199.232.197.131
@@ -1097,10 +1120,10 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F7\U0001F1F4RO_68 | ⬇️ 4.7MB/s"
+      name: "\U0001F1F7\U0001F1F4RO_64 | ⬇️ 6.7MB/s"
       network: tcp
       port: 8443
-      server: 95.173.199.84
+      server: 95.173.199.99
       servername: ams1.fromblancwithlove.com
       tls: true
       type: vless
@@ -1109,26 +1132,19 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_10 | ⬇️ 1.1MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_13 | ⬇️ 1.1MB/s"
       network: tcp
       port: 8443
-      server: 185.229.191.93
+      server: 185.229.191.22
       servername: ams1.fromblancwithlove.com
       tls: true
       type: vless
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
       xudp: true
-    - name: "\U0001F1F7\U0001F1F4RO_69 | ⬇️ 4.7MB/s"
-      port: 9002
-      server: 84.239.49.160
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F7\U0001F1F4RO_70 | ⬇️ 4.8MB/s"
+      name: "\U0001F1F7\U0001F1F4RO_65 | ⬇️ 6.7MB/s"
       network: tcp
       port: 8443
       server: 95.173.199.88
@@ -1138,9 +1154,35 @@ proxies:
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
       xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 1.7MB/s"
+      password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+      port: 443
+      server: 7de3857f-ta1og0-tgzvop-hns7.sjc.oshuawei.com
+      sni: 7de3857f-ta1og0-tgzvop-hns7.sjc.oshuawei.com
+      tls: true
+      type: http
+      username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F7\U0001F1F4RO_71 | ⬇️ 3.6MB/s"
+      name: "\U0001F1F7\U0001F1F4RO_66 | ⬇️ 6.6MB/s"
+      network: tcp
+      port: 8443
+      server: 95.173.199.85
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - name: "\U0001F1F7\U0001F1F4RO_67 | ⬇️ 4.9MB/s"
+      port: 9002
+      server: 84.239.49.37
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F7\U0001F1F4RO_68 | ⬇️ 4.9MB/s"
       network: tcp
       port: 8443
       server: 95.173.199.78
@@ -1150,55 +1192,69 @@ proxies:
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
       xudp: true
-    - name: "\U0001F1F7\U0001F1F4RO_72 | ⬇️ 4.2MB/s"
-      port: 9002
-      server: 84.239.49.37
-      skip-cert-verify: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F7\U0001F1F4RO_69 | ⬇️ 4.9MB/s"
+      network: tcp
+      port: 8443
+      server: 95.173.199.84
+      servername: ams1.fromblancwithlove.com
       tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_73 | ⬇️ 4.4MB/s"
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - name: "\U0001F1F7\U0001F1F4RO_70 | ⬇️ 3.8MB/s"
       port: 9002
       server: 84.239.49.164
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_74 | ⬇️ 4.6MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_71 | ⬇️ 2.5MB/s"
       port: 9002
-      server: 193.176.84.27
+      server: 84.239.49.160
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_75 | ⬇️ 3.9MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_72 | ⬇️ 5.5MB/s"
       port: 9002
-      server: 193.176.84.24
+      server: 193.176.84.34
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_76 | ⬇️ 3.7MB/s"
-      port: 9002
-      server: 84.239.14.158
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_77 | ⬇️ 4.0MB/s"
-      port: 9002
-      server: 84.239.14.147
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_78 | ⬇️ 4.0MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_73 | ⬇️ 6.2MB/s"
       port: 9002
       server: 84.239.14.152
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
+    - client-fingerprint: random
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 3.0MB/s"
+      network: tcp
+      port: 60776
+      reality-opts:
+        public-key: rPR7TUpmOpwShZeyLs2QFa46zzCBNkNdYkxe7-trUUc
+        short-id: 63290ae7179078
+      server: 1.sdwan.realm-sync.com
+      servername: swcdn.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
+      xudp: true
+    - name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 5.0MB/s"
+      password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+      port: 56309
+      server: hkt.ccwink.cc
+      skip-cert-verify: true
+      type: hysteria2
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_14 | ⬇️ 11.2MB/s"
+      name: "\U0001F1E9\U0001F1EADE_13 | ⬇️ 9.3MB/s"
       network: ws
       port: 80
       server: 151.101.130.219
@@ -1211,34 +1267,7 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
         path: /
       xudp: true
-    - name: "\U0001F1F7\U0001F1F4RO_79 | ⬇️ 3.2MB/s"
-      port: 9002
-      server: 84.239.14.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_80 | ⬇️ 3.3MB/s"
-      port: 9002
-      server: 193.176.84.36
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_81 | ⬇️ 4.5MB/s"
-      port: 9002
-      server: 193.176.84.26
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_82 | ⬇️ 3.0MB/s"
-      port: 9002
-      server: 193.176.84.32
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_15 | ⬇️ 8.9MB/s"
+    - name: "\U0001F1E9\U0001F1EADE_14 | ⬇️ 17.9MB/s"
       network: ws
       port: 80
       server: speedtest.net
@@ -1251,16 +1280,41 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
         path: /
       xudp: true
-    - name: "\U0001F1F7\U0001F1F4RO_83 | ⬇️ 2.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_74 | ⬇️ 3.5MB/s"
       port: 9002
-      server: 193.176.84.31
+      server: 84.239.14.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_14 | ⬇️ 6.4MB/s"
+      network: tcp
+      port: 8443
+      server: 185.229.191.69
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - name: "\U0001F1F7\U0001F1F4RO_75 | ⬇️ 5.3MB/s"
+      port: 9002
+      server: 193.176.84.26
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_76 | ⬇️ 5.1MB/s"
+      port: 9002
+      server: 84.239.49.242
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F7\U0001F1F4RO_84 | ⬇️ 4.3MB/s"
+      name: "\U0001F1F7\U0001F1F4RO_77 | ⬇️ 4.8MB/s"
       network: tcp
       port: 8443
       server: 95.173.199.82
@@ -1270,11 +1324,54 @@ proxies:
       udp: true
       uuid: 394f6981-a782-4779-9a85-e6cf22935d93
       xudp: true
+    - name: "\U0001F1F7\U0001F1F4RO_78 | ⬇️ 2.8MB/s"
+      port: 9002
+      server: 193.176.84.31
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_79 | ⬇️ 2.4MB/s"
+      port: 9002
+      server: 193.176.84.36
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_80 | ⬇️ 1.2MB/s"
+      port: 9002
+      server: 84.239.49.166
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_81 | ⬇️ 6.3MB/s"
+      port: 9002
+      server: 193.176.84.25
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: random
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 2.9MB/s"
+      network: tcp
+      port: 58712
+      reality-opts:
+        public-key: en2L9xxQOv2w4eD0sxqu3eOFGnqOxZLWuR9sFqBDdAM
+        short-id: f266fd3d4e
+      server: 1.sdwan.realm-sync.com
+      servername: swcdn.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
+      xudp: true
     - http-opts:
         method: GET
         path:
             - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-      name: "\U0001F1E8\U0001F1EDCH_1 | ⬇️ 13.7MB/s"
+      name: "\U0001F1E8\U0001F1EDCH_1 | ⬇️ 6.7MB/s"
       network: http
       port: 22
       server: 172.65.111.43
@@ -1283,23 +1380,18 @@ proxies:
       tls: false
       type: vless
       uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
-    - name: "\U0001F1F7\U0001F1F4RO_85 | ⬇️ 2.4MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_82 | ⬇️ 2.0MB/s"
       port: 9002
-      server: 193.176.84.39
+      server: 193.176.84.32
       skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_86 | ⬇️ 4.2MB/s"
-      port: 9002
-      server: 193.176.84.25
-      skip-cert-verify: true
+      sni: www.bing.com
       tls: true
       type: http
     - alpn:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 11.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 24.0MB/s"
       network: ws
       port: 443
       server: 104.16.0.0
@@ -1314,13 +1406,20 @@ proxies:
             Host: gongyilm.dpdns.org
         path: /ws-gongyi
       xudp: true
+    - name: "\U0001F1F7\U0001F1F4RO_83 | ⬇️ 3.6MB/s"
+      port: 9002
+      server: 193.176.84.19
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
     - name: "\U0001F1E6\U0001F1FAAU_2 | ⬇️ 3.8MB/s"
       port: 443
       server: 103.62.50.130
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 4.7MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 2.8MB/s"
       password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
       port: 443
       server: 416c4ce6-t9zts0-tgzvop-hns7.sjc.oshuawei.com
@@ -1328,16 +1427,9 @@ proxies:
       tls: true
       type: http
       username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-    - name: "\U0001F1F7\U0001F1F4RO_87 | ⬇️ 3.8MB/s"
-      port: 9002
-      server: 193.176.84.19
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_16 | ⬇️ 7.7MB/s"
+      name: "\U0001F1E9\U0001F1EADE_15 | ⬇️ 11.9MB/s"
       network: ws
       port: 443
       server: 188.114.97.6
@@ -1354,7 +1446,30 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_17 | ⬇️ 10.0MB/s"
+      name: "\U0001F1FA\U0001F1E6UA_3 | ⬇️ 5.2MB/s"
+      network: tcp
+      port: 8443
+      server: 143.244.45.53
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1NL_15 | ⬇️ 2.2MB/s"
+      network: tcp
+      port: 8443
+      server: 185.229.191.10
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_16 | ⬇️ 10.1MB/s"
       network: ws
       port: 443
       server: www.speedtest.org
@@ -1371,19 +1486,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1E6UA_3 | ⬇️ 3.5MB/s"
-      network: tcp
-      port: 8443
-      server: 143.244.45.53
-      servername: ams1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_11 | ⬇️ 4.6MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_16 | ⬇️ 6.9MB/s"
       network: tcp
       port: 8443
       server: 79.127.227.215
@@ -1395,7 +1498,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_12 | ⬇️ 6.8MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_17 | ⬇️ 6.6MB/s"
       network: tcp
       port: 8443
       server: 185.229.191.96
@@ -1409,7 +1512,7 @@ proxies:
         - h3
       auth-str: dongtaiwang.com
       down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_18 | ⬇️ 3.5MB/s"
+      name: "\U0001F1E9\U0001F1EADE_17 | ⬇️ 3.5MB/s"
       port: 20088
       protocol: udp
       server: 5.83.129.153
@@ -1417,22 +1520,10 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "500"
-    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 1.2MB/s"
-      password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-      port: 443
-      server: 0aafb652-t9zts0-tgzvop-hns7.se.oshuawei.com
-      sni: 0aafb652-t9zts0-tgzvop-hns7.se.oshuawei.com
-      tls: true
-      type: http
-      username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-    - name: "\U0001F1F3\U0001F1F1NL_13 | ⬇️ 2.8MB/s"
-      port: 1080
-      server: 5.255.99.75
-      type: socks5
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_8 | ⬇️ 1.4MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_7 | ⬇️ 2.9MB/s"
       network: tcp
       port: 5457
       reality-opts:
@@ -1444,4 +1535,44 @@ proxies:
       type: vless
       udp: true
       uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.6MB/s"
+      password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+      port: 443
+      server: 0aafb652-t9zts0-tgzvop-hns7.se.oshuawei.com
+      sni: 0aafb652-t9zts0-tgzvop-hns7.se.oshuawei.com
+      tls: true
+      type: http
+      username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+    - name: "\U0001F1F3\U0001F1F1NL_18 | ⬇️ 7.0MB/s"
+      port: 1080
+      server: 5.255.99.75
+      type: socks5
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 1.4MB/s"
+      network: tcp
+      port: 55567
+      reality-opts:
+        public-key: 0soGDTguByd3I9e2nLuzkw5BOHELZ_AHHDkA0Zx3JRA
+        short-id: f3f70ca767
+      server: 1.sdwan.realm-sync.com
+      servername: www.discoverasr.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_19 | ⬇️ 1.0MB/s"
+      network: tcp
+      port: 8443
+      server: 185.229.191.14
+      servername: ams1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
       xudp: true
