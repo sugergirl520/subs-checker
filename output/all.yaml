@@ -1,20 +1,26 @@
 proxies:
-    - cipher: aes-256-gcm
-      delay: 1260
-      name: "\U0001F1EE\U0001F1F9IT_1 | ⬇️ 10.3MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.45
-      type: ss
-    - cipher: aes-256-gcm
-      country: "\U0001F1F3\U0001F1FF NZ"
-      delay: 562
-      name: "\U0001F1EE\U0001F1F9IT_2 | ⬇️ 19.3MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.18
-      type: ss
-    - name: "\U0001F1E7\U0001F1EABE_1 | ⬇️ 13.8MB/s"
+    - name: "\U0001F1EE\U0001F1EAIE_1 | ⬇️ 7.9MB/s"
+      port: 443
+      server: 34.249.214.108
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 8.3MB/s"
+      port: 443
+      server: 212.102.63.31
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1EE\U0001F1EAIE_2 | ⬇️ 8.2MB/s"
+      port: 443
+      server: 18.200.158.139
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1E7\U0001F1EABE_1 | ⬇️ 8.5MB/s"
       port: 443
       server: 146.70.123.98
       skip-cert-verify: true
@@ -22,121 +28,42 @@ proxies:
       type: http
       udp: true
     - cipher: aes-256-gcm
-      country: "\U0001F1F3\U0001F1FF NZ"
-      delay: 1376
-      name: "\U0001F1EE\U0001F1F9IT_3 | ⬇️ 16.2MB/s"
+      name: "\U0001F1EE\U0001F1F9IT_1 | ⬇️ 5.9MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
-      server: 202.50.253.36
+      server: 202.50.253.81
       type: ss
-    - name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 14.0MB/s"
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_2 | ⬇️ 5.2MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.63
+      type: ss
+      udp: true
+    - name: "\U0001F1E9\U0001F1EADE_1 | ⬇️ 8.4MB/s"
       port: 9002
       server: 158.173.154.5
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - cipher: aes-256-gcm
-      delay: 647
-      name: "\U0001F1EE\U0001F1F9IT_4 | ⬇️ 8.4MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.63
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      delay: 674
-      name: "\U0001F1EE\U0001F1F9IT_5 | ⬇️ 6.7MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.90
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      country: "\U0001F1F3\U0001F1FF NZ"
-      delay: 2580
-      name: "\U0001F1EE\U0001F1F9IT_6 | ⬇️ 10.5MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.81
-      type: ss
-    - name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 7.9MB/s"
-      port: 9002
-      server: 158.173.154.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 8.2MB/s"
-      password: None
-      port: 9002
-      server: 158.173.154.4
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 8.0MB/s"
+    - name: "\U0001F1EB\U0001F1F7FR_1 | ⬇️ 7.7MB/s"
       port: 6103
       server: 87.98.174.157
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1E8\U0001F1FFCZ_1 | ⬇️ 8.3MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 8.1MB/s"
       password: None
-      port: 9443
-      server: 152.233.16.174
+      port: 9002
+      server: 84.17.47.149
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - cipher: aes-256-gcm
-      delay: 1030
-      name: "\U0001F1EE\U0001F1F9IT_7 | ⬇️ 4.0MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.99
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      delay: 735
-      name: "\U0001F1EE\U0001F1F9IT_8 | ⬇️ 4.3MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.72
-      type: ss
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7GB_1 | ⬇️ 4.2MB/s"
-      port: 443
-      server: 212.102.63.31
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 3.9MB/s"
-      password: None
-      port: 443
-      server: 149.36.50.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EE\U0001F1EAIE_1 | ⬇️ 12.0MB/s"
-      port: 443
-      server: 18.200.158.139
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - cipher: aes-256-gcm
-      delay: 756
-      name: "\U0001F1EE\U0001F1F9IT_9 | ⬇️ 4.1MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.54
-      type: ss
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_1 | ⬇️ 17.7MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 7.7MB/s"
       password: "null"
       port: 9002
       server: 84.17.47.148
@@ -145,7 +72,52 @@ proxies:
       type: http
       udp: true
       username: "null"
-    - name: "\U0001F1F3\U0001F1F1NL_2 | ⬇️ 16.1MB/s"
+    - name: "\U0001F1E9\U0001F1EADE_2 | ⬇️ 8.4MB/s"
+      port: 9002
+      server: 158.173.154.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 8.8MB/s"
+      port: 9002
+      server: 84.17.47.125
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1E9\U0001F1EADE_3 | ⬇️ 7.9MB/s"
+      password: None
+      port: 9002
+      server: 158.173.154.4
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 7.9MB/s"
+      port: 443
+      server: 149.36.51.129
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1E9\U0001F1EADE_4 | ⬇️ 7.7MB/s"
+      password: None
+      port: 443
+      server: 149.36.50.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 7.6MB/s"
+      password: None
+      port: 9002
+      server: 84.17.47.123
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_6 | ⬇️ 7.1MB/s"
       password: "null"
       port: 9002
       server: 84.17.47.125
@@ -154,43 +126,14 @@ proxies:
       type: http
       udp: true
       username: "null"
-    - name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 23.7MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_1 | ⬇️ 246.9MB/s"
       port: 443
       server: 172.64.69.89
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - cipher: aes-256-gcm
-      delay: 1269
-      name: "\U0001F1EE\U0001F1F9IT_10 | ⬇️ 2.8MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.27
-      type: ss
-      udp: true
-    - name: "\U0001F1EE\U0001F1EAIE_2 | ⬇️ 6.9MB/s"
-      port: 443
-      server: 34.249.214.108
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_3 | ⬇️ 9.0MB/s"
-      port: 443
-      server: 149.36.51.129
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_4 | ⬇️ 10.0MB/s"
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_5 | ⬇️ 9.6MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_7 | ⬇️ 6.8MB/s"
       password: "null"
       port: 9002
       server: 84.17.47.147
@@ -199,46 +142,7 @@ proxies:
       type: http
       udp: true
       username: "null"
-    - name: "\U0001F1F3\U0001F1F1NL_6 | ⬇️ 9.3MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.149
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_7 | ⬇️ 10.3MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_8 | ⬇️ 9.6MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.123
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_9 | ⬇️ 8.9MB/s"
-      port: 9002
-      server: 84.17.47.124
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 14.1MB/s"
-      password: "null"
-      port: 9002
-      server: 138.199.35.220
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 13.4MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_2 | ⬇️ 70.7MB/s"
       password: ""
       port: 9443
       server: 38.95.111.226
@@ -248,25 +152,7 @@ proxies:
       udp: true
       username: ""
       x-toolall-mihomo: true
-    - name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 22.9MB/s"
-      password: "null"
-      port: 9002
-      server: 138.199.35.206
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 11.8MB/s"
-      password: ""
-      port: 9002
-      server: 138.199.35.200
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: ""
-      x-toolall-mihomo: true
-    - name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 13.0MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_3 | ⬇️ 53.8MB/s"
       password: ""
       port: 9002
       server: 138.199.35.201
@@ -276,7 +162,41 @@ proxies:
       udp: true
       username: ""
       x-toolall-mihomo: true
-    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 38.2MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_4 | ⬇️ 59.3MB/s"
+      password: ""
+      port: 9002
+      server: 138.199.35.200
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+      x-toolall-mihomo: true
+    - name: "\U0001F1FA\U0001F1F8US_5 | ⬇️ 51.8MB/s"
+      password: "null"
+      port: 9002
+      server: 138.199.35.220
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1E8\U0001F1FFCZ_1 | ⬇️ 5.7MB/s"
+      password: None
+      port: 9443
+      server: 152.233.16.174
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_6 | ⬇️ 10.7MB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 443
+      server: usgp1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      udp: true
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
+    - name: "\U0001F1FA\U0001F1F8US_7 | ⬇️ 14.5MB/s"
       password: None
       port: 9002
       server: 138.199.35.196
@@ -286,7 +206,15 @@ proxies:
       type: http
       udp: true
       x-toolall-mihomo: true
-    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 18.9MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_8 | ⬇️ 13.9MB/s"
+      password: "null"
+      port: 9002
+      server: 138.199.35.206
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 246.9MB/s"
       port: 443
       server: 172.64.68.89
       skip-cert-verify: true
@@ -296,7 +224,50 @@ proxies:
       type: http
       udp: true
       x-toolall-mihomo: true
-    - name: "\U0001F1FA\U0001F1F8US_9 | ⬇️ 98.5MB/s"
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_3 | ⬇️ 2.8MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.27
+      type: ss
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 10.1MB/s"
+      password: l1tlrdx52v
+      port: 62000
+      server: 66.253.2.69
+      type: socks5
+      username: u_rb1dba2
+    - name: "\U0001F1F3\U0001F1F1NL_8 | ⬇️ 8.9MB/s"
+      port: 9002
+      server: 84.17.47.124
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_9 | ⬇️ 8.2MB/s"
+      password: None
+      port: 9002
+      server: 84.17.47.148
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - client-fingerprint: edge
+      grpc-opts:
+        grpc-service-name: 7d5abcd7d8a1
+      name: "\U0001F1F3\U0001F1F1NL_10 | ⬇️ 6.3MB/s"
+      network: grpc
+      port: 443
+      reality-opts:
+        public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
+        short-id: 6d289ff0f47c0aac
+      server: 45.9.120.53
+      servername: 961ec0g.nl13.h1clayd.click
+      tls: true
+      type: vless
+      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+      x-toolall-mihomo: true
+    - name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 20.1MB/s"
       password: ""
       port: 443
       server: 149.88.21.129
@@ -306,7 +277,7 @@ proxies:
       udp: true
       username: ""
       x-toolall-mihomo: true
-    - name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 7.2MB/s"
+    - name: "\U0001F1EB\U0001F1F7FR_2 | ⬇️ 5.4MB/s"
       password: "null"
       port: 6103
       server: 87.98.174.157
@@ -317,24 +288,7 @@ proxies:
       udp: true
       username: "null"
       x-toolall-mihomo: true
-    - name: "\U0001F1F7\U0001F1F4RO_1 | ⬇️ 8.0MB/s"
-      port: 9002
-      server: 193.176.84.24
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-      udp: true
-      x-toolall-mihomo: true
-    - name: "\U0001F1F3\U0001F1F1NL_10 | ⬇️ 13.8MB/s"
-      password: "null"
-      port: 9002
-      server: 84.17.47.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 8.3MB/s"
+    - name: "\U0001F1EB\U0001F1F7FR_3 | ⬇️ 8.4MB/s"
       port: 443
       server: 82.66.235.221
       skip-cert-verify: true
@@ -343,16 +297,42 @@ proxies:
       type: http
       udp: true
       x-toolall-mihomo: true
-    - name: "\U0001F1F7\U0001F1F4RO_2 | ⬇️ 5.7MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_11 | ⬇️ 5.7MB/s"
       password: "null"
       port: 9002
-      server: 193.176.84.35
+      server: 84.17.47.146
       skip-cert-verify: true
-      sni: 193.176.84.35
       tls: true
       type: http
       username: "null"
-    - name: "\U0001F1EC\U0001F1F7GR_1 | ⬇️ 8.1MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_1 | ⬇️ 5.1MB/s"
+      password: "null"
+      port: 9002
+      server: 193.176.84.33
+      skip-cert-verify: true
+      sni: 193.176.84.33
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1F7\U0001F1F4RO_2 | ⬇️ 4.7MB/s"
+      password: None
+      port: 9002
+      server: 193.176.84.24
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - cipher: 2022-blake3-chacha20-poly1305
+      name: "\U0001F1E9\U0001F1EADE_5 | ⬇️ 3.7MB/s"
+      password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+      port: 443
+      server: 47.254.128.109
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1EC\U0001F1F7GR_1 | ⬇️ 5.7MB/s"
       password: ""
       port: 443
       server: 149.22.85.78
@@ -362,40 +342,7 @@ proxies:
       udp: true
       username: ""
       x-toolall-mihomo: true
-    - name: "\U0001F1FA\U0001F1F8US_10 | ⬇️ 5.9MB/s"
-      password: 75bPoRcB
-      port: 62000
-      server: 216.132.114.27
-      type: socks5
-      username: JzufiJ62
-    - name: "\U0001F1FA\U0001F1F8US_11 | ⬇️ 2.4MB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 443
-      server: usgp1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      udp: true
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 16.0MB/s"
-      port: 38182
-      server: 69.55.49.177
-      type: socks5
-    - name: "\U0001F1F7\U0001F1F4RO_3 | ⬇️ 4.0MB/s"
-      password: "null"
-      port: 9002
-      server: 193.176.84.33
-      skip-cert-verify: true
-      sni: 193.176.84.33
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1F2\U0001F1FDMX_1 | ⬇️ 4.7MB/s"
-      password: 2j7CCZQb
-      port: 62000
-      server: 94.194.164.203
-      type: socks5
-      username: rVkkraqT
-    - name: "\U0001F1EA\U0001F1E8EC_1 | ⬇️ 6.1MB/s"
+    - name: "\U0001F1EA\U0001F1E8EC_1 | ⬇️ 7.8MB/s"
       password: ""
       port: 9443
       server: 38.165.231.71
@@ -405,7 +352,68 @@ proxies:
       udp: true
       username: ""
       x-toolall-mihomo: true
-    - name: "\U0001F1F7\U0001F1F4RO_4 | ⬇️ 6.4MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_3 | ⬇️ 4.0MB/s"
+      port: 9002
+      server: 193.176.84.24
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1F7\U0001F1F4RO_4 | ⬇️ 3.6MB/s"
+      password: "null"
+      port: 9002
+      server: 193.176.84.35
+      skip-cert-verify: true
+      sni: 193.176.84.35
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1FA\U0001F1F8US_12 | ⬇️ 6.3MB/s"
+      password: 75bPoRcB
+      port: 62000
+      server: 216.132.114.27
+      type: socks5
+      username: JzufiJ62
+    - name: "\U0001F1F2\U0001F1FDMX_1 | ⬇️ 3.5MB/s"
+      password: 2j7CCZQb
+      port: 62000
+      server: 94.194.164.203
+      type: socks5
+      username: rVkkraqT
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-service-name: 7d5abcd7d8a1
+      name: "\U0001F1F3\U0001F1F1NL_12 | ⬇️ 5.2MB/s"
+      network: grpc
+      packet-encoding: xudp
+      port: 443
+      reality-opts:
+        public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
+        short-id: 6d289ff0f47c0aac
+      server: 961ec0g.nl13.h1clayd.click
+      servername: 961ec0g.nl13.h1clayd.click
+      tls: true
+      type: vless
+      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+      x-toolall-mihomo: true
+    - name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 7.5MB/s"
+      port: 38182
+      server: 69.55.49.177
+      type: socks5
+    - cipher: chacha20-ietf
+      name: "\U0001F1F3\U0001F1F1NL_13 | ⬇️ 1.5MB/s"
+      obfs: tls1.2_ticket_auth
+      obfs-param: ""
+      password: dongtaiwang.com
+      port: 33336
+      protocol: auth_chain_a
+      protocol-param: ""
+      server: 109.104.153.43
+      type: ssr
+      x-toolall-mihomo: true
+    - name: "\U0001F1F7\U0001F1F4RO_5 | ⬇️ 2.0MB/s"
       password: "null"
       port: 9002
       server: 193.176.84.23
@@ -413,54 +421,45 @@ proxies:
       tls: true
       type: http
       username: "null"
-    - name: "\U0001F1F7\U0001F1F4RO_5 | ⬇️ 7.0MB/s"
-      password: ""
-      port: 9002
-      server: 193.176.84.26
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_4 | ⬇️ 3.5MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.99
+      skip-cert-verify: false
+      tls: false
+      type: ss
       udp: true
-      username: ""
       x-toolall-mihomo: true
-    - name: "\U0001F1FA\U0001F1F8US_13 | ⬇️ 2.8MB/s"
-      password: l1tlrdx52v
-      port: 62000
-      server: 66.253.2.69
-      type: socks5
-      username: u_rb1dba2
-    - name: "\U0001F1F7\U0001F1F4RO_6 | ⬇️ 1.9MB/s"
-      password: None
-      port: 9002
-      server: 193.176.84.24
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_5 | ⬇️ 5.1MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.36
+      type: ss
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 6.8MB/s"
-      port: 443
-      server: 149.34.248.65
-      skip-cert-verify: true
-      sni: 149.34.248.65
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1F7GR_2 | ⬇️ 3.6MB/s"
-      password: ""
-      port: 443
-      server: 149.22.85.65
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: ""
       x-toolall-mihomo: true
-    - name: "\U0001F1F2\U0001F1FDMX_2 | ⬇️ 2.8MB/s"
+    - name: "\U0001F1F2\U0001F1FDMX_2 | ⬇️ 2.6MB/s"
       password: DJy1T0dt
       port: 42000
       server: 144.225.47.8
       type: socks5
       username: Tek2x6av
-    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 3.2MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1NL_14 | ⬇️ 5.2MB/s"
+      network: tcp
+      packet-encoding: xudp
+      port: 443
+      reality-opts:
+        public-key: kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI
+        short-id: 8956c57cb4c4f8d2
+      server: f0d7aft.nl13.h1clayd.click
+      servername: f0d7aft.nl13.h1clayd.click
+      tls: true
+      type: vless
+      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+      x-toolall-mihomo: true
+    - name: "\U0001F1F8\U0001F1ECSG_1 | ⬇️ 4.4MB/s"
       password: ""
       port: 9443
       server: 149.88.99.209
@@ -470,46 +469,91 @@ proxies:
       udp: true
       username: ""
       x-toolall-mihomo: true
-    - name: "\U0001F1F9\U0001F1EDTH_1 | ⬇️ 4.3MB/s"
-      password: zdnivBaI
-      port: 62000
-      server: 109.66.136.242
+    - name: "\U0001F1FA\U0001F1F8US_14 | ⬇️ 5.7MB/s"
+      port: 443
+      server: 149.34.248.65
+      skip-cert-verify: true
+      sni: 149.34.248.65
+      tls: true
+      type: http
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_6 | ⬇️ 2.8MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.18
+      type: ss
+    - name: "\U0001F1EC\U0001F1F7GR_2 | ⬇️ 3.4MB/s"
+      password: ""
+      port: 443
+      server: 149.22.85.65
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+      x-toolall-mihomo: true
+    - name: "\U0001F1F9\U0001F1EDTH_1 | ⬇️ 4.1MB/s"
+      password: mpbK00Pl
+      port: 42000
+      server: 192.204.15.138
       type: socks5
-      username: r3ZzP8WW
-    - name: "\U0001F1F9\U0001F1EDTH_2 | ⬇️ 3.4MB/s"
+      username: X3s3JteD
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_7 | ⬇️ 7.9MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.90
+      type: ss
+    - name: "\U0001F1F9\U0001F1EDTH_2 | ⬇️ 3.9MB/s"
       password: fAgE2jqK
       port: 42000
       server: 151.246.108.69
       type: socks5
       username: h87527jJ
-    - name: "\U0001F1F9\U0001F1EDTH_3 | ⬇️ 3.0MB/s"
+    - name: "\U0001F1F9\U0001F1EDTH_3 | ⬇️ 2.8MB/s"
       password: KT5hiU8o
       port: 42000
       server: 104.234.70.136
       type: socks5
       username: rnt2L4XO
-    - name: "\U0001F1F9\U0001F1EDTH_4 | ⬇️ 2.0MB/s"
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_8 | ⬇️ 3.1MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.45
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+      x-toolall-mihomo: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_9 | ⬇️ 5.2MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.72
+      sub_tag: A004-260618
+      type: ss
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1F9\U0001F1EDTH_4 | ⬇️ 1.9MB/s"
       password: KT5hiU8o
       port: 42000
       server: 104.234.70.82
       type: socks5
       username: rnt2L4XO
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-service-name: 5b79e8a94241
-      name: "\U0001F1F3\U0001F1F1NL_11 | ⬇️ 1.2MB/s"
-      network: grpc
-      port: 443
-      reality-opts:
-        public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
-        short-id: 50a749f0eccb628c
-      server: 15b171g.nl7.h1clayd.click
-      servername: 15b171g.nl7.h1clayd.click
-      tls: true
-      type: vless
-      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-      x-toolall-mihomo: true
-    - name: "\U0001F1F9\U0001F1EDTH_5 | ⬇️ 1.4MB/s"
+    - name: "\U0001F1F9\U0001F1EDTH_5 | ⬇️ 4.7MB/s"
+      password: zdnivBaI
+      port: 62000
+      server: 109.66.136.242
+      type: socks5
+      username: r3ZzP8WW
+    - name: "\U0001F1F9\U0001F1EDTH_6 | ⬇️ 4.8MB/s"
+      password: VAwyJQX0iKMJiyCw5UVK9wGH
+      port: 42000
+      server: 103.14.164.30
+      type: socks5
+      username: route164JIa2CBPxfy
+    - name: "\U0001F1F9\U0001F1EDTH_7 | ⬇️ 3.2MB/s"
       password: ao3W5ZML
       port: 42000
       server: 168.222.8.119
@@ -521,365 +565,406 @@ proxies:
       server: 144.225.47.68
       type: socks5
       username: DJy1T0dt
-    - name: "\U0001F1F9\U0001F1EDTH_6 | ⬇️ 3.7MB/s"
-      password: VAwyJQX0iKMJiyCw5UVK9wGH
-      port: 42000
-      server: 103.14.164.30
-      type: socks5
-      username: route164JIa2CBPxfy
-    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 1.5MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_2 | ⬇️ 2.3MB/s"
       port: 443
       server: 154.26.139.24
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F9\U0001F1EDTH_7 | ⬇️ 3.1MB/s"
+    - name: "\U0001F1F9\U0001F1EDTH_8 | ⬇️ 2.4MB/s"
       password: Ks4Iab43
       port: 42000
       server: 82.47.152.151
       type: socks5
       username: userLjVB
-    - name: "\U0001F1F9\U0001F1EDTH_8 | ⬇️ 2.8MB/s"
-      password: zdnivBaI
-      port: 62000
-      server: 109.66.136.42
-      type: socks5
-      username: r3ZzP8WW
-    - name: "\U0001F1F9\U0001F1EDTH_9 | ⬇️ 3.8MB/s"
+    - name: "\U0001F1F9\U0001F1EDTH_9 | ⬇️ 3.4MB/s"
       password: YlRoWvE0dL_cUqS94wPeKnA4
       port: 62000
       server: 87.84.49.245
       type: socks5
       username: ks878449260d
-    - name: "\U0001F1EE\U0001F1F9IT_11 | ⬇️ 7.4MB/s"
-      password: JdFlrZhqHP
-      port: 1080
-      server: 69.16.157.244
-      type: socks5
-      username: ufCobhydz4Wd
-    - name: "\U0001F1EE\U0001F1E9ID_1 | ⬇️ 4.0MB/s"
-      password: APJ7RmY9
+    - name: "\U0001F1F9\U0001F1EDTH_10 | ⬇️ 1.9MB/s"
+      password: zdnivBaI
       port: 62000
-      server: 202.155.99.32
+      server: 109.66.136.42
       type: socks5
-      username: gebHTLF6
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 2.7MB/s"
-      network: tcp
-      packet-encoding: xudp
-      port: 23169
-      server: 155.248.175.201
-      servername: djj.zjlo.top
-      tls: true
-      type: vless
-      uuid: f67b1159-a61f-4ae4-9844-0701b716a290
-      x-toolall-mihomo: true
-    - name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 2.9MB/s"
+      username: r3ZzP8WW
+    - name: "\U0001F1F2\U0001F1FDMX_4 | ⬇️ 3.9MB/s"
+      port: 999
+      server: 189.187.131.201
+      type: http
+    - name: "\U0001F1EF\U0001F1F5JP_1 | ⬇️ 8.2MB/s"
       password: exaxgqkKkd0TAMrCxeonWg==
       port: 443
       server: jpgmo102-cdn-route.couldflare-cdn.com
       tls: true
       type: http
       username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1EA\U0001F1F8ES_1 | ⬇️ 2.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-        short-id: 42426c882c5fcd41
-      server: 7aa271t.es9.h1clayd.click
-      servername: 7aa271t.es9.h1clayd.click
-      tls: true
-      type: vless
-      uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_10 | ⬇️ 5.3MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.54
+      type: ss
+      udp: true
       x-toolall-mihomo: true
+    - name: "\U0001F1EE\U0001F1E9ID_1 | ⬇️ 5.8MB/s"
+      password: APJ7RmY9
+      port: 62000
+      server: 202.155.99.32
+      type: socks5
+      username: gebHTLF6
     - cipher: aes-256-gcm
-      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 7.8MB/s"
-      password: cdBIDV42DCwnfIN
-      port: 8118
-      server: 51.79.85.185
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1E8\U0001F1E6CA_2 | ⬇️ 9.5MB/s"
-      password: kDWvXYZoTBcGkC4
-      port: 8882
-      server: 51.222.136.236
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1E8\U0001F1E6CA_3 | ⬇️ 5.9MB/s"
+      name: "\U0001F1E8\U0001F1E6CA_1 | ⬇️ 6.5MB/s"
       password: zDNVedRFPQexG9v
       port: 445
       server: 51.222.141.125
       type: ss
-    - name: "\U0001F1F9\U0001F1EDTH_10 | ⬇️ 3.3MB/s"
-      password: ao3W5ZML
-      port: 42000
-      server: 168.222.8.4
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6CA_2 | ⬇️ 5.1MB/s"
+      password: Y6R9pAtvxxzmGC
+      port: 5000
+      server: 51.222.200.165
+      type: ss
+    - name: "\U0001F1EE\U0001F1F9IT_11 | ⬇️ 2.6MB/s"
+      password: JdFlrZhqHP
+      port: 1080
+      server: 69.16.157.244
       type: socks5
-      username: JPjarpW3
-    - client-fingerprint: firefox
+      username: ufCobhydz4Wd
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_3 | ⬇️ 1.4MB/s"
+      network: tcp
+      port: 51283
+      reality-opts:
+        public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+        short-id: fa514b83
+      server: free.fugui.lol
+      servername: swdist.apple.com
+      tls: true
+      type: vless
+      uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+      x-toolall-mihomo: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6CA_3 | ⬇️ 5.8MB/s"
+      password: kDWvXYZoTBcGkC4
+      port: 8882
+      server: 51.222.136.236
+      type: ss
+    - name: "\U0001F1E7\U0001F1F7BR_1 | ⬇️ 1.6MB/s"
+      password: 0mvrt5jb
+      port: 62000
+      server: 191.7.129.133
+      type: socks5
+      username: uwrgfkwg
+    - client-fingerprint: edge
       grpc-opts:
-        grpc-service-name: 5b79e8a94241
-      name: "\U0001F1F3\U0001F1F1NL_12 | ⬇️ 1.7MB/s"
+        grpc-service-name: 99f2107b03f8
+      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 1.4MB/s"
       network: grpc
-      packet-encoding: xudp
       port: 443
       reality-opts:
-        public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
-        short-id: 50a749f0eccb628c
-      server: 196.245.52.183
-      servername: 15b171g.nl7.h1clayd.click
+        public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+        short-id: bd8f712209a9c283
+      server: 89.124.122.19
+      servername: 0592efg.us8.h1clayd.click
       tls: true
       type: vless
       uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
       x-toolall-mihomo: true
     - cipher: aes-256-gcm
-      name: "\U0001F1E6\U0001F1F9AT_1 | ⬇️ 3.8MB/s"
+      name: "\U0001F1E8\U0001F1E6CA_4 | ⬇️ 8.2MB/s"
+      password: zDNVedRFPQexG9v
+      port: 445
+      server: 51.222.12.127
+      type: ss
+    - name: "\U0001F1F9\U0001F1EDTH_11 | ⬇️ 2.8MB/s"
+      password: zdnivBaI
+      port: 62000
+      server: 109.66.136.234
+      type: socks5
+      username: r3ZzP8WW
+    - name: "\U0001F1F9\U0001F1EDTH_12 | ⬇️ 2.2MB/s"
+      password: ao3W5ZML
+      port: 42000
+      server: 168.222.8.4
+      type: socks5
+      username: JPjarpW3
+    - cipher: aes-256-gcm
+      name: "\U0001F1E6\U0001F1F9AT_1 | ⬇️ 2.7MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
       server: 82.110.60.9
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1EB\U0001F1F7FR_4 | ⬇️ 9.4MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_4 | ⬇️ 8.7MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
       server: 23.162.152.22
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1E8\U0001F1E6CA_4 | ⬇️ 3.8MB/s"
-      password: zDNVedRFPQexG9v
-      port: 445
-      server: 51.222.12.127
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EB\U0001F1EEFI_1 | ⬇️ 9.7MB/s"
-      password: C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc
-      port: 25565
-      server: static.28.210.29.2.clients.your-server.de
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1E8\U0001F1EDCH_1 | ⬇️ 6.2MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 186.190.215.251
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EB\U0001F1F7FR_5 | ⬇️ 16.4MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 167.17.64.27
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EB\U0001F1F7FR_6 | ⬇️ 10.3MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 172.99.189.142
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EB\U0001F1F7FR_7 | ⬇️ 10.8MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 167.17.64.22
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EB\U0001F1F7FR_8 | ⬇️ 10.9MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 167.17.64.175
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EA\U0001F1F8ES_2 | ⬇️ 4.1MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 167.17.71.167
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EA\U0001F1F8ES_3 | ⬇️ 3.9MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 66.163.118.103
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1E8\U0001F1E6CA_5 | ⬇️ 5.7MB/s"
-      password: Y6R9pAtvxxzmGC
-      port: 5000
-      server: 51.222.200.165
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EC\U0001F1E7GB_2 | ⬇️ 21.8MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 198.244.201.129
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EC\U0001F1E7GB_3 | ⬇️ 10.7MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 198.244.202.215
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EC\U0001F1E7GB_4 | ⬇️ 11.2MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 38.114.120.221
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EC\U0001F1E7GB_5 | ⬇️ 10.5MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 142.202.51.22
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EB\U0001F1F7FR_9 | ⬇️ 4.2MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_5 | ⬇️ 8.5MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
       server: 38.109.228.110
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1E8\U0001F1EDCH_2 | ⬇️ 5.5MB/s"
+      name: "\U0001F1EA\U0001F1F8ES_1 | ⬇️ 6.4MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
-      server: 23.166.88.127
+      server: 66.163.118.103
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1EA\U0001F1F8ES_4 | ⬇️ 3.0MB/s"
+      name: "\U0001F1EA\U0001F1F8ES_2 | ⬇️ 6.3MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 167.17.71.167
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1EDCH_1 | ⬇️ 4.9MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 186.190.215.251
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EA\U0001F1F8ES_3 | ⬇️ 6.0MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
       server: 79.127.139.242
       type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EB\U0001F1EEFI_1 | ⬇️ 6.6MB/s"
+      password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
+      port: 40647
+      server: 213.176.92.148
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EB\U0001F1F7FR_6 | ⬇️ 9.2MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 167.17.64.175
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EB\U0001F1F7FR_7 | ⬇️ 7.3MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 172.99.189.142
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EB\U0001F1F7FR_8 | ⬇️ 8.1MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 167.17.64.22
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EB\U0001F1F7FR_9 | ⬇️ 6.1MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 167.17.64.27
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EC\U0001F1E7GB_2 | ⬇️ 9.2MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 142.202.51.22
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E9\U0001F1EADE_6 | ⬇️ 2.7MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 57.129.83.85
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1EDCH_2 | ⬇️ 3.4MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 23.166.88.127
+      type: ss
     - cipher: aes-128-gcm
-      name: "\U0001F1EC\U0001F1E7GB_6 | ⬇️ 10.3MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_3 | ⬇️ 8.1MB/s"
       password: shadowsocks
       port: 443
       server: 158.173.24.73
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1EC\U0001F1E7GB_7 | ⬇️ 9.0MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_4 | ⬇️ 4.6MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
-      server: 185.176.206.9
+      server: 198.244.201.129
       type: ss
     - cipher: aes-128-gcm
-      name: "\U0001F1EC\U0001F1E7GB_8 | ⬇️ 8.4MB/s"
-      password: shadowsocks
-      port: 443
-      server: 141.98.101.181
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1F3\U0001F1F1NL_13 | ⬇️ 20.6MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 151.241.19.36
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1F3\U0001F1F1NL_14 | ⬇️ 19.5MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 151.241.19.29
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_12 | ⬇️ 9.3MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 185.164.175.81
-      type: ss
-    - cipher: aes-128-gcm
-      name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 5.6MB/s"
-      password: shadowsocks
-      port: 443
-      server: 149.22.87.204
-      type: ss
-    - cipher: aes-128-gcm
-      name: "\U0001F1EF\U0001F1F5JP_4 | ⬇️ 6.0MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_2 | ⬇️ 10.4MB/s"
       password: shadowsocks
       port: 443
       server: 149.22.87.240
       type: ss
     - cipher: aes-128-gcm
-      name: "\U0001F1EF\U0001F1F5JP_5 | ⬇️ 6.1MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_3 | ⬇️ 10.0MB/s"
+      password: shadowsocks
+      port: 443
+      server: 149.22.87.204
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1EF\U0001F1F5JP_4 | ⬇️ 11.2MB/s"
       password: shadowsocks
       port: 443
       server: 149.22.87.241
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_13 | ⬇️ 10.6MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_5 | ⬇️ 5.3MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 185.176.206.9
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EC\U0001F1E7GB_6 | ⬇️ 5.4MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 38.114.120.221
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1EC\U0001F1E7GB_7 | ⬇️ 6.3MB/s"
+      password: shadowsocks
+      port: 443
+      server: 141.98.101.181
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1EDCH_3 | ⬇️ 1.8MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 79.127.184.104
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_12 | ⬇️ 8.5MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 185.164.175.81
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EC\U0001F1E7GB_8 | ⬇️ 3.6MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 198.244.202.215
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_13 | ⬇️ 7.7MB/s"
       password: itzvpn@321
       port: 8388
       server: 57.131.27.21
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_15 | ⬇️ 8.6MB/s"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: 8080
-      server: 82.38.31.46
+    - cipher: aes-128-gcm
+      name: "\U0001F1EC\U0001F1E7GB_9 | ⬇️ 7.3MB/s"
+      password: shadowsocks
+      port: 443
+      server: 141.98.101.178
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 3.6MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_15 | ⬇️ 5.3MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
-      server: 138.199.55.243
+      server: 151.241.19.29
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1ECSG_3 | ⬇️ 4.2MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_16 | ⬇️ 3.4MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
-      server: 149.88.106.74
+      server: 151.241.19.36
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1ECSG_4 | ⬇️ 4.5MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 149.88.107.74
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1ECSG_5 | ⬇️ 4.5MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_4 | ⬇️ 7.6MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
       server: 149.88.107.47
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1ECSG_6 | ⬇️ 2.7MB/s"
+      name: "\U0001F1F8\U0001F1EASE_1 | ⬇️ 5.5MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 138.199.55.243
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1ECSG_5 | ⬇️ 6.7MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 15.235.182.183
+      type: ss
+    - name: "\U0001F1E8\U0001F1E6CA_5 | ⬇️ 12.2MB/s"
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: 443
+      server: 216.152.147.93
+      sni: connectingpeoplewithgreatjobs.com
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_17 | ⬇️ 3.7MB/s"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 8080
+      server: 82.38.31.46
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1ECSG_6 | ⬇️ 5.2MB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
       server: 15.235.164.133
       type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1ECSG_7 | ⬇️ 5.7MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 149.88.107.74
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1ECSG_8 | ⬇️ 4.7MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 149.88.106.74
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1EC\U0001F1E7GB_10 | ⬇️ 4.5MB/s"
+      password: RexnBgU7EV5ADxG
+      port: 7001
+      server: 94.156.250.148
+      type: ss
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FF\U0001F1E6ZA_1 | ⬇️ 4.5MB/s"
+      name: "\U0001F1FF\U0001F1E6ZA_1 | ⬇️ 4.9MB/s"
       password: aduB9HGxQHjA2SBMRjkHX6
       port: 443
       server: 102.37.156.224
       type: ss
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FF\U0001F1E6ZA_2 | ⬇️ 4.4MB/s"
+      name: "\U0001F1F3\U0001F1F4NO_1 | ⬇️ 2.5MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 185.213.23.63
+      type: ss
+    - name: "\U0001F1F3\U0001F1F1NL_18 | ⬇️ 8.4MB/s"
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: 443
+      server: 66.163.127.225
+      sni: cdn.indyourperfectremotetechjobfromthecomfortofhome.com
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FF\U0001F1E6ZA_2 | ⬇️ 3.9MB/s"
       password: Xsy8Ox4yOV3xLlpxtjzs3X
       port: 16233
       server: 102.133.165.160
       type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1ECSG_7 | ⬇️ 1.4MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 15.235.182.183
-      type: ss
-    - name: "\U0001F1F8\U0001F1ECSG_8 | ⬇️ 4.2MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_9 | ⬇️ 6.2MB/s"
       password: 57beeeb0-03fc-4fc9-94da-7604488a7134
       port: 443
-      server: i1tr.mateflora.com
+      server: bgsg1.hikigo.com
       skip-cert-verify: true
-      sni: i1tr.mateflora.com
+      sni: bgsg1.hikigo.com
       type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_9 | ⬇️ 5.6MB/s"
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_10 | ⬇️ 3.6MB/s"
       password: 57beeeb0-03fc-4fc9-94da-7604488a7134
       port: 443
       server: 77.93.89.2
       skip-cert-verify: true
       sni: bgsg1.hikigo.com
       type: trojan
-      udp: true
-    - name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 4.3MB/s"
+    - name: "\U0001F1FB\U0001F1F3VN_1 | ⬇️ 4.1MB/s"
       network: tcp
       password: 57beeeb0-03fc-4fc9-94da-7604488a7134
       port: 443
@@ -888,92 +973,9 @@ proxies:
       sni: xvxn1hkzf.mateflora.com
       type: trojan
       udp: true
-    - alpn:
-        - ""
-      alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_6 | ⬇️ 2.8MB/s"
-      network: ws
-      port: 16617
-      server: afzuv.xiaoyan.io
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 904f0569-8695-466f-97cf-0de2face1b46
-      ws-opts:
-        headers:
-            Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-        path: /
-    - alpn:
-        - ""
-      alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_15 | ⬇️ 6.0MB/s"
-      network: ws
-      port: 16648
-      server: afzuv.xiaoyan.io
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 904f0569-8695-466f-97cf-0de2face1b46
-      ws-opts:
-        headers:
-            Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-        path: /
-    - alpn:
-        - ""
-      alterId: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6CA_6 | ⬇️ 2.3MB/s"
-      network: ws
-      port: 16641
-      server: p6-olduser.linuxlh.xin
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 904f0569-8695-466f-97cf-0de2face1b46
-      ws-opts:
-        headers:
-            Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_1 | ⬇️ 1.3MB/s"
-      network: ws
-      port: 16632
-      server: pdmv4.xiaoyan.io
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 904f0569-8695-466f-97cf-0de2face1b46
-      ws-opts:
-        headers:
-            Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-        path: /
-      xudp: true
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_2 | ⬇️ 2.1MB/s"
-      network: ws
-      port: 16622
-      server: byr3a.xiaoyan.io
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 904f0569-8695-466f-97cf-0de2face1b46
-      ws-opts:
-        headers:
-            Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-        path: /
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F4NO_1 | ⬇️ 1.5MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.213.23.63
-      type: ss
+    - name: "\U0001F1E8\U0001F1EDCH_4 | ⬇️ 2.4MB/s"
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: 443
+      server: 208.69.78.33
+      sni: courses.yourultimateprofessionalcareerhub.com
+      type: trojan
